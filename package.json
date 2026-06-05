@@ -1,0 +1,13 @@
+{
+  "name": "auto-study-project",
+  "version": "1.0.0",
+  "description": "杭州人社学习平台自动刷课脚本",
+  "main": "auto-study.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.60.0"
+  }
+}

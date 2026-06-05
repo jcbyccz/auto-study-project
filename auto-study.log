@@ -1,0 +1,1218 @@
+[13:50:14] 日志文件: /Users/gaobo/auto-study-project/auto-study.log
+[13:50:14] [启动] 使用持久化浏览器配置...
+[13:50:14] [启动] 用户数据目录: /Users/gaobo/auto-study-project/browser-data
+[13:50:14] [启动] 登录状态将自动保存，下次无需重新登录
+[13:50:14] 
+[13:50:16] [1/2] 打开学习平台...
+[13:50:25] 
+[13:50:25] ┌────────────────────────────────────────────┐
+[13:50:25] │  👤 请在浏览器中登录你的账号               │
+[13:50:25] │  登录成功后回到终端按 回车键 继续          │
+[13:50:25] │                                            │
+[13:50:25] │  💡 登录一次即可，下次自动恢复登录状态     │
+[13:50:25] └────────────────────────────────────────────┘
+[13:50:25] 
+[13:50:50] [2/2] 开始自动刷课！
+[13:50:50] 
+[13:50:50] ────────────── 开始选新课 ──────────────
+[13:50:50] [导航] SPA内导航...
+[13:50:52] [选课] 选择"一般公需"分类...
+[13:50:52] [选课] 打开了第 1 个下拉框
+[13:50:53] [选课✅] 选中: 一般公需
+[13:50:55] [搜索] 点击查询...
+[13:50:55] [搜索] 点击: button:has-text("查询")
+[13:51:00] [选课] 从课程列表中选择最合适的课程...
+[13:51:00] [选课] ⚠️ 未找到课程卡片
+[13:51:00] [选课] 尝试打印页面内容帮助调试...
+[13:51:00] [调试] 页面内容: 
+    课程首页资讯政策学习中心网络课程教育基地电子图书学习帮助关于我们欢迎您,高波！进入学时管理系统学习常见问题退出登录学习帮助查看全部常见问题解答学员操作手册专业技术人员继续教育学分制管理常见问题关于印发《杭州市专业技术人员继续教育学分制管理办法》的通知听过的课还想再听如何办?不能正常答题课程类别一般公需考试类型请选择课程体系所有查询全部课程[科学素养]以火为墨 铁笔生花讲师：张海应时长：20 分钟类型：一般公需学时：0.50[科学素养]以火为墨 出彩人生讲师：陈胜时长：20 分钟类型：一般公需学时：0.50[科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类...
+[13:51:00] [调试] 链接数: 0
+[13:51:00] [❌] 没有可选课程了，可能已全部完成！
+[13:51:00] 
+[13:51:00] ========================================
+[13:51:00]   🎉 自动学习结束！
+[13:51:00]   完成 0 课，累计 0 学时
+[13:51:00] ========================================
+[13:59:23] 日志文件: /Users/gaobo/auto-study-project/auto-study.log
+[13:59:23] [启动] 使用持久化浏览器配置...
+[13:59:23] [启动] 用户数据目录: /Users/gaobo/auto-study-project/browser-data
+[13:59:23] [启动] 登录状态将自动保存，下次无需重新登录
+[13:59:23] 
+[13:59:24] [1/2] 打开学习平台...
+[13:59:29] 
+[13:59:29] ┌────────────────────────────────────────────┐
+[13:59:29] │  👤 请在浏览器中登录你的账号               │
+[13:59:29] │  登录成功后回到终端按 回车键 继续          │
+[13:59:29] │                                            │
+[13:59:29] │  💡 登录一次即可，下次自动恢复登录状态     │
+[13:59:29] └────────────────────────────────────────────┘
+[13:59:29] 
+[14:00:02] [2/2] 开始自动刷课！
+[14:00:02] 
+[14:00:02] ────────────── 开始选新课 ──────────────
+[14:00:02] [导航] SPA内导航...
+[14:00:04] [选课] 选择"一般公需"分类...
+[14:00:04] [选课] 打开了第 1 个下拉框
+[14:00:05] [选课✅] 选中: 一般公需
+[14:00:07] [搜索] 点击查询...
+[14:00:07] [搜索] 点击: button:has-text("查询")
+[14:00:12] [选课] 从课程列表中选择最合适的课程...
+[14:00:12] [选课] 找到 30 个课程
+[14:00:12]   [#0] [科学素养]以火为墨 铁笔生花讲师：张海应时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:00:12]   [#1] [科学素养]以火为墨 出彩人生讲师：陈胜时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:00:12]   [#2] [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:00:12]   [#3] [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:00:12]   [#4] [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:00:12]   [排序#0] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50
+[14:00:12]   [排序#1] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50
+[14:00:12]   [排序#2] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50
+[14:00:12] [选课✅] 选中: 创新的力量：从拥抱5G到奔向火星（一） (相关性:13)
+[14:00:12] [选课] DOM点击: clicked-by-text: DIV.itemBox
+[14:00:15] [详情] 在课程详情页点击"立即学习"...
+[14:00:17] [详情] ⚠️ 未找到"立即学习"按钮
+[14:00:17] [调试] 详情页内容: 
+    课程首页资讯政策学习中心网络课程教育基地电子图书学习帮助关于我们欢迎您,高波！进入学时管理系统学习常见问题退出登录学习帮助查看全部常见问题解答学员操作手册专业技术人员继续教育学分制管理常见问题关于印发《杭州市专业技术人员继续教育学分制管理办法》的通知听过的课还想再听如何办?不能正常答题课程类别一般公需考试类型请选择课程体系所有查询全部课程[科学素养]以火为墨 铁笔生花讲师：张海应时长：2...
+[14:00:17] [❌] 无法开始学习，换下一课...
+[14:00:17] [返回] 回到课程列表...
+[14:00:19] [返回] 后退失败，直接导航到课程页...
+[14:00:22] ────────────── 开始选新课 ──────────────
+[14:00:22] [选课] 选择"一般公需"分类...
+[14:00:22] [选课] 打开了第 1 个下拉框
+[14:00:23] [选课✅] 选中: 一般公需
+[14:00:25] [搜索] 点击查询...
+[14:00:25] [搜索] 点击: button:has-text("查询")
+[14:00:30] [选课] 从课程列表中选择最合适的课程...
+[14:00:30] [选课] 找到 30 个课程
+[14:00:30]   [#0] [科学素养]以火为墨 铁笔生花讲师：张海应时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:00:30]   [#1] [科学素养]以火为墨 出彩人生讲师：陈胜时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:00:30]   [#2] [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:00:30]   [#3] [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:00:30]   [#4] [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:00:30]   [排序#0] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50
+[14:00:30]   [排序#1] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50
+[14:00:30]   [排序#2] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50
+[14:00:30] [选课✅] 选中: 创新的力量：从拥抱5G到奔向火星（四） (相关性:13)
+[14:00:30] [选课] DOM点击: clicked-by-text: DIV.itemBox
+[14:00:33] [详情] 在课程详情页点击"立即学习"...
+[14:00:35] [详情] ⚠️ 未找到"立即学习"按钮
+[14:00:35] [调试] 详情页内容: 
+    课程首页资讯政策学习中心网络课程教育基地电子图书学习帮助关于我们欢迎您,高波！进入学时管理系统学习常见问题退出登录学习帮助查看全部常见问题解答学员操作手册专业技术人员继续教育学分制管理常见问题关于印发《杭州市专业技术人员继续教育学分制管理办法》的通知听过的课还想再听如何办?不能正常答题课程类别一般公需考试类型请选择课程体系所有查询全部课程[科学素养]以火为墨 铁笔生花讲师：张海应时长：2...
+[14:00:35] [❌] 无法开始学习，换下一课...
+[14:00:35] [返回] 回到课程列表...
+[14:00:37] [返回] 后退失败，直接导航到课程页...
+[14:00:40] ────────────── 开始选新课 ──────────────
+[14:00:40] [选课] 选择"一般公需"分类...
+[14:00:40] [选课] 打开了第 1 个下拉框
+[14:00:41] [选课✅] 选中: 一般公需
+[14:00:43] [搜索] 点击查询...
+[14:00:43] [搜索] 点击: button:has-text("查询")
+[14:00:48] [选课] 从课程列表中选择最合适的课程...
+[14:00:49] [选课] 找到 30 个课程
+[14:00:49]   [#0] [科学素养]以火为墨 铁笔生花讲师：张海应时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:00:49]   [#1] [科学素养]以火为墨 出彩人生讲师：陈胜时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:00:49]   [#2] [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:00:49]   [#3] [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:00:49]   [#4] [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:00:49]   [排序#0] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50
+[14:00:49]   [排序#1] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50
+[14:00:49]   [排序#2] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50
+[14:00:49] [选课✅] 选中: 创新的力量：从拥抱5G到奔向火星（三） (相关性:13)
+[14:00:49] [选课] DOM点击: clicked-by-text: DIV.itemBox
+[14:00:52] [详情] 在课程详情页点击"立即学习"...
+[14:00:54] [详情] ⚠️ 未找到"立即学习"按钮
+[14:00:54] [调试] 详情页内容: 
+    课程首页资讯政策学习中心网络课程教育基地电子图书学习帮助关于我们欢迎您,高波！进入学时管理系统学习常见问题退出登录学习帮助查看全部常见问题解答学员操作手册专业技术人员继续教育学分制管理常见问题关于印发《杭州市专业技术人员继续教育学分制管理办法》的通知听过的课还想再听如何办?不能正常答题课程类别一般公需考试类型请选择课程体系所有查询全部课程[科学素养]以火为墨 铁笔生花讲师：张海应时长：2...
+[14:00:54] [❌] 无法开始学习，换下一课...
+[14:00:54] [返回] 回到课程列表...
+[14:00:56] [返回] 后退失败，直接导航到课程页...
+[14:00:59] ────────────── 开始选新课 ──────────────
+[14:00:59] [选课] 选择"一般公需"分类...
+[14:00:59] [选课] 打开了第 1 个下拉框
+[14:01:00] [选课✅] 选中: 一般公需
+[14:01:02] [搜索] 点击查询...
+[14:01:02] [搜索] 点击: button:has-text("查询")
+[14:01:07] [选课] 从课程列表中选择最合适的课程...
+[14:01:07] [选课] 找到 30 个课程
+[14:01:07]   [#0] [科学素养]以火为墨 铁笔生花讲师：张海应时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:01:07]   [#1] [科学素养]以火为墨 出彩人生讲师：陈胜时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:01:07]   [#2] [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:01:07]   [#3] [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:01:07]   [#4] [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:01:07]   [排序#0] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50
+[14:01:07]   [排序#1] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50
+[14:01:07]   [排序#2] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50
+[14:01:07] [选课✅] 选中: 创新的力量：从拥抱5G到奔向火星（二） (相关性:13)
+[14:01:07] [选课] DOM点击: clicked-by-text: DIV.itemBox
+[14:01:10] [详情] 在课程详情页点击"立即学习"...
+[14:01:12] [详情] ⚠️ 未找到"立即学习"按钮
+[14:01:12] [调试] 详情页内容: 
+    课程首页资讯政策学习中心网络课程教育基地电子图书学习帮助关于我们欢迎您,高波！进入学时管理系统学习常见问题退出登录学习帮助查看全部常见问题解答学员操作手册专业技术人员继续教育学分制管理常见问题关于印发《杭州市专业技术人员继续教育学分制管理办法》的通知听过的课还想再听如何办?不能正常答题课程类别一般公需考试类型请选择课程体系所有查询全部课程[科学素养]以火为墨 铁笔生花讲师：张海应时长：2...
+[14:01:12] [❌] 无法开始学习，换下一课...
+[14:01:12] [返回] 回到课程列表...
+[14:01:14] [返回] 后退失败，直接导航到课程页...
+[14:01:17] ────────────── 开始选新课 ──────────────
+[14:01:17] [选课] 选择"一般公需"分类...
+[14:01:17] [选课] 打开了第 1 个下拉框
+[14:01:18] [选课✅] 选中: 一般公需
+[14:01:20] [搜索] 点击查询...
+[14:01:20] [搜索] 点击: button:has-text("查询")
+[14:03:24] 日志文件: /Users/gaobo/auto-study-project/auto-study.log
+[14:03:24] [启动] 使用持久化浏览器配置...
+[14:03:24] [启动] 用户数据目录: /Users/gaobo/auto-study-project/browser-data
+[14:03:24] [启动] 登录状态将自动保存，下次无需重新登录
+[14:03:24] 
+[14:03:26] [1/2] 打开学习平台...
+[14:03:31] 
+[14:03:31] ┌────────────────────────────────────────────┐
+[14:03:31] │  👤 请在浏览器中登录你的账号               │
+[14:03:31] │  登录成功后回到终端按 回车键 继续          │
+[14:03:31] │                                            │
+[14:03:31] │  💡 登录一次即可，下次自动恢复登录状态     │
+[14:03:31] └────────────────────────────────────────────┘
+[14:03:31] 
+[14:03:48] [2/2] 开始自动刷课！
+[14:03:48] 
+[14:03:48] ────────────── 开始选新课 ──────────────
+[14:03:48] [导航] SPA内导航...
+[14:03:50] [选课] 选择"一般公需"分类...
+[14:03:50] [选课] 打开了第 1 个下拉框
+[14:03:51] [选课✅] 选中: 一般公需
+[14:03:53] [搜索] 点击查询...
+[14:03:53] [搜索] 点击: button:has-text("查询")
+[14:03:58] [选课] 从课程列表中选择最合适的课程...
+[14:03:58] [选课] 找到 30 个课程
+[14:03:58]   [#0] [科学素养]以火为墨 铁笔生花讲师：张海应时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:03:58]   [#1] [科学素养]以火为墨 出彩人生讲师：陈胜时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:03:58]   [#2] [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:03:58]   [#3] [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:03:58]   [#4] [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:03:58]   [排序#0] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50
+[14:03:58]   [排序#1] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50
+[14:03:58]   [排序#2] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50
+[14:03:58] [选课✅] 选中: 创新的力量：从拥抱5G到奔向火星（一） (相关性:13)
+[14:03:58] [选课] 内部点击: {"strategy":"inner-child","tag":"DIV","class":"","text":"[科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50"}
+[14:04:03] [选课] 内部点击后未跳转，继续尝试...
+[14:04:04] [选课] 坐标点击(上部): (715, 576)
+[14:04:09] [选课] 文本匹配点击: 创新的力量：从拥抱5G到奔向火星（一）
+[14:04:14] [选课-调试] 课程元素属性: data-v-62621a20= class=itemBox
+[14:04:14] [选课-调试] 子元素: DIV. | DIV.
+[14:04:14] [选课-调试] HTML: <div data-v-62621a20=""><img data-v-62621a20="" src="https://file.hzrs.hangzhou.gov.cn/pro/upload//skmanage/202508/68a6d0816b612.jpg" style="width: 90px; height: 90px;"></div><div data-v-62621a20="" style="width: 240px; margin-left: 14px;"><div data-v-62621a20="" class="Line0">[科学素养]</div><div data-v-62621a20="" class="Line"><span class="el-only-child__content el-tooltip__trigger el-tooltip__trigger" aria-describedby="el-id-9708-26">创新的力量：从拥抱5G到奔向火星（一）</span></div><div data-v-62621a20="" class="
+[14:04:14] [选课] ⚠️ 所有点击策略均未能跳转到详情页
+[14:04:14] [选课] 点击失败，尝试下一个课程...
+[14:04:14] [选课✅] 选中: 创新的力量：从拥抱5G到奔向火星（四） (相关性:13)
+[14:04:14] [选课] 内部点击: {"strategy":"inner-child","tag":"DIV","class":"","text":"[科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50"}
+[14:04:19] [选课] 内部点击后未跳转，继续尝试...
+[14:04:19] [选课] 坐标点击(上部): (1095, 576)
+[14:04:24] [选课] 文本匹配点击: 创新的力量：从拥抱5G到奔向火星（四）
+[14:04:29] [选课-调试] 课程元素属性: data-v-62621a20= class=itemBox
+[14:04:29] [选课-调试] 子元素: DIV. | DIV.
+[14:04:29] [选课-调试] HTML: <div data-v-62621a20=""><img data-v-62621a20="" src="https://file.hzrs.hangzhou.gov.cn/pro/upload//skmanage/202508/68a3f358307ce.jpg" style="width: 90px; height: 90px;"></div><div data-v-62621a20="" style="width: 240px; margin-left: 14px;"><div data-v-62621a20="" class="Line0">[科学素养]</div><div data-v-62621a20="" class="Line"><span class="el-only-child__content el-tooltip__trigger el-tooltip__trigger" aria-describedby="el-id-9708-27">创新的力量：从拥抱5G到奔向火星（四）</span></div><div data-v-62621a20="" class="
+[14:04:29] [选课] ⚠️ 所有点击策略均未能跳转到详情页
+[14:04:29] [选课] 点击失败，尝试下一个课程...
+[14:04:29] [选课✅] 选中: 创新的力量：从拥抱5G到奔向火星（三） (相关性:13)
+[14:04:29] [选课] 内部点击: {"strategy":"inner-child","tag":"DIV","class":"","text":"[科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50"}
+[14:04:34] [选课] 内部点击后未跳转，继续尝试...
+[14:04:34] [选课] 坐标点击(上部): (715, 704)
+[14:04:39] [选课] 文本匹配点击: 创新的力量：从拥抱5G到奔向火星（三）
+[14:12:29] 日志文件: /Users/gaobo/auto-study-project/auto-study.log
+[14:12:29] [启动] 启动浏览器...
+[14:12:29] [启动] 登录状态文件: /Users/gaobo/auto-study-project/auth-state.json
+[14:12:30] [1/2] 打开学习平台...
+[14:12:45] 
+[14:12:45] ┌────────────────────────────────────────────┐
+[14:12:45] │  👤 请在浏览器中登录你的账号               │
+[14:12:45] │  登录成功后回到终端按 回车键 继续          │
+[14:12:45] │                                            │
+[14:12:45] │  💡 登录一次即可，下次自动恢复登录状态     │
+[14:12:45] └────────────────────────────────────────────┘
+[14:12:45] 
+[14:12:45] [1/2] ✅ 登录状态已保存
+[14:12:45] [2/2] 开始自动刷课！
+[14:12:45] 
+[14:12:45] ────────────── 开始选新课 ──────────────
+[14:12:45] [导航] 打开页面...
+[14:12:49] [选课] 选择"一般公需"分类...
+[14:12:49] [选课] 不在课程页面，导航中...
+[14:12:49] [导航] 打开页面...
+[14:12:54] [选课] ⚠️ 未能自动选择课程类别，可能需要手动选择
+[14:12:55] [搜索] 点击查询...
+[14:12:55] [搜索] 按回车查询
+[14:13:00] [选课] 从课程列表中选择最合适的课程...
+[14:13:00] [选课] 出错: page.evaluate: Execution context was destroyed, most likely because of a navigation
+[14:13:00] [❌] 没有可选课程了，可能已全部完成！
+[14:13:00] 
+[14:13:00] ========================================
+[14:13:00]   🎉 自动学习结束！
+[14:13:00]   完成 0 课，累计 0 学时
+[14:13:00] ========================================
+[14:13:04] 
+[退出] 收到 SIGINT 信号，保存登录状态...
+[14:13:04] [退出] 保存状态失败: browserContext.storageState: Target page, context or browser has been closed
+[14:13:05] 日志文件: /Users/gaobo/auto-study-project/auto-study.log
+[14:13:05] [启动] 启动浏览器...
+[14:13:05] [启动] 登录状态文件: /Users/gaobo/auto-study-project/auth-state.json
+[14:13:05] [启动] ✅ 找到已保存的登录状态
+[14:13:06] [1/2] 打开学习平台...
+[14:13:12] [1/2] 旧登录状态已过期，已清除
+[14:13:12] 
+[14:13:12] ┌────────────────────────────────────────────┐
+[14:13:12] │  👤 请在浏览器中登录你的账号               │
+[14:13:12] │  登录成功后回到终端按 回车键 继续          │
+[14:13:12] │                                            │
+[14:13:12] │  💡 登录一次即可，下次自动恢复登录状态     │
+[14:13:12] └────────────────────────────────────────────┘
+[14:13:12] 
+[14:13:25] [1/2] ✅ 登录状态已保存
+[14:13:25] [2/2] 开始自动刷课！
+[14:13:25] 
+[14:13:25] ────────────── 开始选新课 ──────────────
+[14:13:25] [导航] SPA内导航...
+[14:13:27] [选课] 选择"一般公需"分类...
+[14:13:27] [选课] 打开了第 1 个下拉框
+[14:13:28] [选课✅] 选中: 一般公需
+[14:13:30] [搜索] 点击查询...
+[14:13:30] [搜索] 点击: button:has-text("查询")
+[14:13:35] [选课] 从课程列表中选择最合适的课程...
+[14:13:35] [选课] 找到 30 个课程
+[14:13:35]   [#0] [科学素养]以火为墨 铁笔生花讲师：张海应时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:13:35]   [#1] [科学素养]以火为墨 出彩人生讲师：陈胜时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:13:35]   [#2] [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:13:35]   [#3] [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:13:35]   [#4] [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:13:35]   [排序#0] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50
+[14:13:35]   [排序#1] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50
+[14:13:35]   [排序#2] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50
+[14:13:35] [选课✅] 选中: 创新的力量：从拥抱5G到奔向火星（一） (相关性:13)
+[14:13:35] [选课] 找到 30 个 .itemBox，尝试 Playwright 原生点击
+[14:13:35] [选课] Playwright原生点击 .itemBox[2]
+[14:13:43] [选课] 点击后未跳转，继续尝试...
+[14:13:43] [选课] locator点击 .itemBox:has-text("创新的力量：从拥抱5G到奔向火")
+[14:13:51] [选课] Playwright点击课程封面图
+[14:13:59] [选课] Playwright点击课程名span
+[14:14:08] [选课] 坐标点击(上部): (715, 576)
+[14:14:16] [选课] ⚠️ 所有点击策略均未能跳转到详情页
+[14:14:16] [选课] 点击失败，尝试下一个课程...
+[14:14:16] [选课✅] 选中: 创新的力量：从拥抱5G到奔向火星（四） (相关性:13)
+[14:14:16] [选课] 找到 30 个 .itemBox，尝试 Playwright 原生点击
+[14:14:16] [选课] Playwright原生点击 .itemBox[3]
+[14:14:24] [选课] 点击后未跳转，继续尝试...
+[14:14:24] [选课] locator点击 .itemBox:has-text("创新的力量：从拥抱5G到奔向火")
+[14:14:32] [选课] Playwright点击课程封面图
+[14:14:40] [选课] Playwright点击课程名span
+[14:14:48] [选课] 坐标点击(上部): (1095, 576)
+[14:14:51] 
+[退出] 收到 SIGINT 信号，保存登录状态...
+[14:14:51] [退出] 保存状态失败: browserContext.storageState: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --autoplay-policy=no-user-gesture-required --disable-blink-features=AutomationControlled --no-first-run --no-default-browser-check --user-data-dir=/var/folders/6d/hf5vr14j60qgrvt6ck350k3m0000gn/T/playwright_chromiumdev_profile-sTzLTt --remote-debugging-pipe --no-startup-window
+<launched> pid=30758
+[pid=30758][err] Trying to load the allocator multiple times. This is *not* supported.
+[pid=30758][err] [30758:19721917:0605/141312.509548:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[pid=30758][err] [30797:19722772:0605/141324.478591:VERBOSE1:chrome/updater/updater.cc:374] Version: 150.0.7863.0, opt, ARM_64, command line: /Users/gaobo/Library/Application Support/Google/GoogleUpdater/150.0.7863.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[pid=30758][err] [30797:19722772:0605/141324.478744:VERBOSE1:chrome/updater/updater.cc:377] OS version: 26.2.0, arch: arm64, System uptime (seconds): 1135219, parent pid: 30758
+[pid=30758][err] [30797:19722772:0605/141324.480609:VERBOSE1:chrome/updater/updater.cc:382] Available disk space in install directory (/Users/gaobo/Library/Application Support/Google/GoogleUpdater): 76157632512B (70.927GiB) / 494384795648B (460.432GiB)
+[pid=30758][err] [30797:19722772:0605/141324.480644:VERBOSE1:chrome/updater/updater.cc:386] Available disk space in temporary directory (/var/folders/6d/hf5vr14j60qgrvt6ck350k3m0000gn/T/): 76157632512B (70.927GiB) / 494384795648B (460.432GiB)
+[pid=30758][err] [30797:19722772:0605/141324.480700:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[pid=30758][err] [30799:19722776:0605/141324.488473:VERBOSE1:chrome/updater/updater.cc:374] Version: 150.0.7863.0, opt, ARM_64, command line: /Users/gaobo/Library/Application Support/Google/GoogleUpdater/150.0.7863.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/gaobo/Library/Application Support/Google/GoogleUpdater/150.0.7863.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=150.0.7863.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[pid=30758][err] [30799:19722776:0605/141324.488640:VERBOSE1:chrome/updater/updater.cc:377] OS version: 26.2.0, arch: arm64, System uptime (seconds): 1135219, parent pid: 1
+[pid=30758][err] [30799:19722776:0605/141324.490704:VERBOSE1:chrome/updater/updater.cc:382] Available disk space in install directory (/Users/gaobo/Library/Application Support/Google/GoogleUpdater): 76157632512B (70.927GiB) / 494384795648B (460.432GiB)
+[pid=30758][err] [30799:19722776:0605/141324.490717:VERBOSE1:chrome/updater/updater.cc:386] Available disk space in temporary directory (/var/folders/6d/hf5vr14j60qgrvt6ck350k3m0000gn/T/): 76157632512B (70.927GiB) / 494384795648B (460.432GiB)
+[pid=30758][err] [30799:19722776:0605/141324.490785:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[pid=30758][err] [30797:19722772:0605/141324.491241:VERBOSE1:chrome/updater/crash_reporter.cc:124] Crash handler launched and ready.
+[pid=30758][err] [30797:19722772:0605/141324.491813:VERBOSE1:chrome/updater/crash_client.cc:108] Found 0 completed crash reports
+[pid=30758][err] [30797:19722772:0605/141324.491867:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports
+[pid=30758][err] [30797:19722772:0605/141324.491925:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/gaobo/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[pid=30758][err] [30797:19722772:0605/141324.491934:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/gaobo/Library/Application Support/Google/consentOptions/Crashpad/settings.dat: No such file or directory (2)
+[pid=30758][err] [30797:19722772:0605/141324.491976:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/gaobo/Library/Application Support/Google/AndroidStudio2025.1.2/Crashpad/settings.dat: No such file or directory (2)
+[pid=30758][err] [30797:19722772:0605/141324.491987:VERBOSE1:chrome/updater/updater.cc:105] Crash reporting initialized.
+[pid=30758][err] [30797:19722784:0605/141324.492254:VERBOSE1:chrome/updater/app/app_wakeall.cc:58] Launching `/Users/gaobo/Library/Application Support/Google/GoogleUpdater/150.0.7863.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[pid=30758][err] [30800:19722788:0605/141324.499736:VERBOSE1:chrome/updater/updater.cc:374] Version: 150.0.7863.0, opt, ARM_64, command line: /Users/gaobo/Library/Application Support/Google/GoogleUpdater/150.0.7863.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[pid=30758][err] [30800:19722788:0605/141324.499882:VERBOSE1:chrome/updater/updater.cc:377] OS version: 26.2.0, arch: arm64, System uptime (seconds): 1135219, parent pid: 30797
+[pid=30758][err] [30800:19722788:0605/141324.501705:VERBOSE1:chrome/updater/updater.cc:382] Available disk space in install directory (/Users/gaobo/Library/Application Support/Google/GoogleUpdater): 76157632512B (70.927GiB) / 494384795648B (460.432GiB)
+[pid=30758][err] [30800:19722788:0605/141324.501716:VERBOSE1:chrome/updater/updater.cc:386] Available disk space in temporary directory (/var/folders/6d/hf5vr14j60qgrvt6ck350k3m0000gn/T/): 76157632512B (70.927GiB) / 494384795648B (460.432GiB)
+[pid=30758][err] [30800:19722788:0605/141324.501768:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[pid=30758][err] [30802:19722792:0605/141324.510983:VERBOSE1:chrome/updater/updater.cc:374] Version: 150.0.7863.0, opt, ARM_64, command line: /Users/gaobo/Library/Application Support/Google/GoogleUpdater/150.0.7863.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/gaobo/Library/Application Support/Google/GoogleUpdater/150.0.7863.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=150.0.7863.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[pid=30758][err] [30802:19722792:0605/141324.511144:VERBOSE1:chrome/updater/updater.cc:377] OS version: 26.2.0, arch: arm64, System uptime (seconds): 1135219, parent pid: 1
+[pid=30758][err] [30802:19722792:0605/141324.513182:VERBOSE1:chrome/updater/updater.cc:382] Available disk space in install directory (/Users/gaobo/Library/Application Support/Google/GoogleUpdater): 76157632512B (70.927GiB) / 494384795648B (460.432GiB)
+[pid=30758][err] [30802:19722792:0605/141324.513192:VERBOSE1:chrome/updater/updater.cc:386] Available disk space in temporary directory (/var/folders/6d/hf5vr14j60qgrvt6ck350k3m0000gn/T/): 76157632512B (70.927GiB) / 494384795648B (460.432GiB)
+[pid=30758][err] [30802:19722792:0605/141324.513263:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[pid=30758][err] [30800:19722788:0605/141324.513609:VERBOSE1:chrome/updater/crash_reporter.cc:124] Crash handler launched and ready.
+[pid=30758][err] [30800:19722788:0605/141324.514144:VERBOSE1:chrome/updater/crash_client.cc:108] Found 0 completed crash reports
+[pid=30758][err] [30800:19722788:0605/141324.514200:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports
+[pid=30758][err] [30800:19722788:0605/141324.514262:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/gaobo/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[pid=30758][err] [30800:19722788:0605/141324.514271:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/gaobo/Library/Application Support/Google/consentOptions/Crashpad/settings.dat: No such file or directory (2)
+[pid=30758][err] [30800:19722788:0605/141324.514311:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/gaobo/Library/Application Support/Google/AndroidStudio2025.1.2/Crashpad/settings.dat: No such file or directory (2)
+[pid=30758][err] [30800:19722788:0605/141324.514322:VERBOSE1:chrome/updater/updater.cc:105] Crash reporting initialized.
+[pid=30758][err] [30800:19722788:0605/141324.514451:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:61] Run
+[pid=30758][err] [30758:19721917:0605/141333.035269:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[pid=30758][err] [30800:19722788:0605/141340.958558:VERBOSE1:chrome/updater/app/app.cc:52] Shutdown: 0
+[pid=30758][err] [30800:19722788:0605/141340.959248:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[pid=30758][err] [30800:19722788:0605/141340.959287:VERBOSE1:chrome/updater/updater.cc:419] UpdaterMain (--wake) returned 0.
+[pid=30758][err] [30797:19722784:0605/141341.011379:VERBOSE1:chrome/updater/app/app_wakeall.cc:68] `/Users/gaobo/Library/Application Support/Google/GoogleUpdater/150.0.7863.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[pid=30758][err] [30797:19722772:0605/141341.011845:VERBOSE1:chrome/updater/app/app.cc:52] Shutdown: 0
+[pid=30758][err] [30797:19722772:0605/141341.012997:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[pid=30758][err] [30797:19722772:0605/141341.013051:VERBOSE1:chrome/updater/updater.cc:419] UpdaterMain (--wake-all) returned 0.
+[pid=30758][err] [30802:19722792:0605/141350.971561:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[pid=30758][err] [30802:19722792:0605/141350.971709:VERBOSE1:chrome/updater/updater.cc:419] UpdaterMain (--crash-handler) returned 0.
+[pid=30758][err] [30799:19722776:0605/141350.975143:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[pid=30758][err] [30799:19722776:0605/141350.975206:VERBOSE1:chrome/updater/updater.cc:419] UpdaterMain (--crash-handler) returned 0.
+[pid=30758][err] [30758:19721917:0605/141413.414020:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:484] ConnectionHandler failed with net error: -2
+[pid=30758][err] [30758:19721917:0605/141420.105562:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[pid=30758][err] [30850:19724547:0605/141440.158440:ERROR:sandbox/mac/system_services.cc:31] SetApplicationIsDaemon: Error Domain=NSOSStatusErrorDomain Code=-50 "paramErr: error in user parameter list" (-50)
+[pid=30758] <gracefully close start>
+[14:20:07] 日志文件: /Users/gaobo/auto-study-project/auto-study.log
+[14:20:07] [启动] 启动浏览器...
+[14:20:07] [启动] 登录状态文件: /Users/gaobo/auto-study-project/auth-state.json
+[14:20:08] [启动] ✅ 找到已保存的登录状态
+[14:20:09] [1/2] 打开学习平台...
+[14:20:19] [1/2] 旧登录状态已过期，已清除
+[14:20:19] 
+[14:20:19] ┌────────────────────────────────────────────┐
+[14:20:19] │  👤 请在浏览器中登录你的账号               │
+[14:20:19] │  登录成功后回到终端按 回车键 继续          │
+[14:20:19] │                                            │
+[14:20:19] │  💡 登录一次即可，下次自动恢复登录状态     │
+[14:20:19] └────────────────────────────────────────────┘
+[14:20:19] 
+[14:20:30] [1/2] ✅ 登录状态已保存
+[14:20:30] [2/2] 开始自动刷课！
+[14:20:30] 
+[14:20:30] ────────────── 开始选新课 ──────────────
+[14:20:30] [选课] 选择"一般公需"分类...
+[14:20:30] [选课] 打开了第 1 个下拉框
+[14:20:31] [选课✅] 选中: 一般公需
+[14:20:33] [搜索] 点击查询...
+[14:20:33] [搜索] 点击: button:has-text("查询")
+[14:20:38] [选课] 从课程列表中选择最合适的课程...
+[14:20:38] [选课] 找到 30 个课程
+[14:20:38]   [#0] [科学素养]以火为墨 铁笔生花讲师：张海应时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:20:38]   [#1] [科学素养]以火为墨 出彩人生讲师：陈胜时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:20:38]   [#2] [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:20:38]   [#3] [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:20:38]   [#4] [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:20:38]   [排序#0] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50
+[14:20:38]   [排序#1] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50
+[14:20:38]   [排序#2] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50
+[14:20:38] [选课✅] 选中: 创新的力量：从拥抱5G到奔向火星（一） (相关性:13)
+[14:20:38] [选课] 找到 30 个 .itemBox
+[14:20:38] [选课] 点击 .itemBox[2]，等待结果...
+[14:21:40] 
+[退出] 收到 SIGINT 信号，保存登录状态...
+[14:21:40] [退出] 保存状态失败: browserContext.storageState: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --autoplay-policy=no-user-gesture-required --disable-blink-features=AutomationControlled --no-first-run --no-default-browser-check --user-data-dir=/var/folders/6d/hf5vr14j60qgrvt6ck350k3m0000gn/T/playwright_chromiumdev_profile-OS3Ihh --remote-debugging-pipe --no-startup-window
+<launched> pid=30987
+[pid=30987][err] Trying to load the allocator multiple times. This is *not* supported.
+[pid=30987][err] [30987:19729474:0605/142012.549384:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[pid=30987][err] [31027:19730298:0605/142027.277590:VERBOSE1:chrome/updater/updater.cc:374] Version: 150.0.7863.0, opt, ARM_64, command line: /Users/gaobo/Library/Application Support/Google/GoogleUpdater/150.0.7863.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[pid=30987][err] [31027:19730298:0605/142027.277749:VERBOSE1:chrome/updater/updater.cc:377] OS version: 26.2.0, arch: arm64, System uptime (seconds): 1135642, parent pid: 30987
+[pid=30987][err] [31027:19730298:0605/142027.279521:VERBOSE1:chrome/updater/updater.cc:382] Available disk space in install directory (/Users/gaobo/Library/Application Support/Google/GoogleUpdater): 76157378560B (70.927GiB) / 494384795648B (460.432GiB)
+[pid=30987][err] [31027:19730298:0605/142027.279533:VERBOSE1:chrome/updater/updater.cc:386] Available disk space in temporary directory (/var/folders/6d/hf5vr14j60qgrvt6ck350k3m0000gn/T/): 76157378560B (70.927GiB) / 494384795648B (460.432GiB)
+[pid=30987][err] [31027:19730298:0605/142027.279587:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[pid=30987][err] [31029:19730302:0605/142027.287003:VERBOSE1:chrome/updater/updater.cc:374] Version: 150.0.7863.0, opt, ARM_64, command line: /Users/gaobo/Library/Application Support/Google/GoogleUpdater/150.0.7863.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/gaobo/Library/Application Support/Google/GoogleUpdater/150.0.7863.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=150.0.7863.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[pid=30987][err] [31029:19730302:0605/142027.287161:VERBOSE1:chrome/updater/updater.cc:377] OS version: 26.2.0, arch: arm64, System uptime (seconds): 1135642, parent pid: 1
+[pid=30987][err] [31029:19730302:0605/142027.289100:VERBOSE1:chrome/updater/updater.cc:382] Available disk space in install directory (/Users/gaobo/Library/Application Support/Google/GoogleUpdater): 76157378560B (70.927GiB) / 494384795648B (460.432GiB)
+[pid=30987][err] [31029:19730302:0605/142027.289115:VERBOSE1:chrome/updater/updater.cc:386] Available disk space in temporary directory (/var/folders/6d/hf5vr14j60qgrvt6ck350k3m0000gn/T/): 76157378560B (70.927GiB) / 494384795648B (460.432GiB)
+[pid=30987][err] [31029:19730302:0605/142027.289179:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[pid=30987][err] [31027:19730298:0605/142027.289613:VERBOSE1:chrome/updater/crash_reporter.cc:124] Crash handler launched and ready.
+[pid=30987][err] [31027:19730298:0605/142027.290164:VERBOSE1:chrome/updater/crash_client.cc:108] Found 0 completed crash reports
+[pid=30987][err] [31027:19730298:0605/142027.290223:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports
+[pid=30987][err] [31027:19730298:0605/142027.290284:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/gaobo/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[pid=30987][err] [31027:19730298:0605/142027.290294:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/gaobo/Library/Application Support/Google/consentOptions/Crashpad/settings.dat: No such file or directory (2)
+[pid=30987][err] [31027:19730298:0605/142027.290336:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/gaobo/Library/Application Support/Google/AndroidStudio2025.1.2/Crashpad/settings.dat: No such file or directory (2)
+[pid=30987][err] [31027:19730298:0605/142027.290348:VERBOSE1:chrome/updater/updater.cc:105] Crash reporting initialized.
+[pid=30987][err] [31027:19730310:0605/142027.290554:VERBOSE1:chrome/updater/app/app_wakeall.cc:58] Launching `/Users/gaobo/Library/Application Support/Google/GoogleUpdater/150.0.7863.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[pid=30987][err] [31030:19730314:0605/142027.297210:VERBOSE1:chrome/updater/updater.cc:374] Version: 150.0.7863.0, opt, ARM_64, command line: /Users/gaobo/Library/Application Support/Google/GoogleUpdater/150.0.7863.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[pid=30987][err] [31030:19730314:0605/142027.297338:VERBOSE1:chrome/updater/updater.cc:377] OS version: 26.2.0, arch: arm64, System uptime (seconds): 1135642, parent pid: 31027
+[pid=30987][err] [31030:19730314:0605/142027.298779:VERBOSE1:chrome/updater/updater.cc:382] Available disk space in install directory (/Users/gaobo/Library/Application Support/Google/GoogleUpdater): 76157378560B (70.927GiB) / 494384795648B (460.432GiB)
+[pid=30987][err] [31030:19730314:0605/142027.298789:VERBOSE1:chrome/updater/updater.cc:386] Available disk space in temporary directory (/var/folders/6d/hf5vr14j60qgrvt6ck350k3m0000gn/T/): 76157378560B (70.927GiB) / 494384795648B (460.432GiB)
+[pid=30987][err] [31030:19730314:0605/142027.298830:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[pid=30987][err] [31032:19730318:0605/142027.305439:VERBOSE1:chrome/updater/updater.cc:374] Version: 150.0.7863.0, opt, ARM_64, command line: /Users/gaobo/Library/Application Support/Google/GoogleUpdater/150.0.7863.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/gaobo/Library/Application Support/Google/GoogleUpdater/150.0.7863.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=150.0.7863.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[pid=30987][err] [31032:19730318:0605/142027.305613:VERBOSE1:chrome/updater/updater.cc:377] OS version: 26.2.0, arch: arm64, System uptime (seconds): 1135642, parent pid: 1
+[pid=30987][err] [31032:19730318:0605/142027.307199:VERBOSE1:chrome/updater/updater.cc:382] Available disk space in install directory (/Users/gaobo/Library/Application Support/Google/GoogleUpdater): 76157378560B (70.927GiB) / 494384795648B (460.432GiB)
+[pid=30987][err] [31032:19730318:0605/142027.307209:VERBOSE1:chrome/updater/updater.cc:386] Available disk space in temporary directory (/var/folders/6d/hf5vr14j60qgrvt6ck350k3m0000gn/T/): 76157378560B (70.927GiB) / 494384795648B (460.432GiB)
+[pid=30987][err] [31032:19730318:0605/142027.307262:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS START event to the history log
+[pid=30987][err] [31030:19730314:0605/142027.307663:VERBOSE1:chrome/updater/crash_reporter.cc:124] Crash handler launched and ready.
+[pid=30987][err] [31030:19730314:0605/142027.308112:VERBOSE1:chrome/updater/crash_client.cc:108] Found 0 completed crash reports
+[pid=30987][err] [31030:19730314:0605/142027.308170:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports
+[pid=30987][err] [31030:19730314:0605/142027.308237:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/gaobo/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[pid=30987][err] [31030:19730314:0605/142027.308246:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/gaobo/Library/Application Support/Google/consentOptions/Crashpad/settings.dat: No such file or directory (2)
+[pid=30987][err] [31030:19730314:0605/142027.308290:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/gaobo/Library/Application Support/Google/AndroidStudio2025.1.2/Crashpad/settings.dat: No such file or directory (2)
+[pid=30987][err] [31030:19730314:0605/142027.308302:VERBOSE1:chrome/updater/updater.cc:105] Crash reporting initialized.
+[pid=30987][err] [31030:19730314:0605/142027.308464:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:61] Run
+[pid=30987][err] [30987:19729474:0605/142036.185994:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[pid=30987][err] [31030:19730314:0605/142044.717048:VERBOSE1:chrome/updater/app/app.cc:52] Shutdown: 0
+[pid=30987][err] [31030:19730314:0605/142044.718753:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[pid=30987][err] [31030:19730314:0605/142044.718789:VERBOSE1:chrome/updater/updater.cc:419] UpdaterMain (--wake) returned 0.
+[pid=30987][err] [31027:19730310:0605/142044.858648:VERBOSE1:chrome/updater/app/app_wakeall.cc:68] `/Users/gaobo/Library/Application Support/Google/GoogleUpdater/150.0.7863.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[pid=30987][err] [31027:19730298:0605/142044.859287:VERBOSE1:chrome/updater/app/app.cc:52] Shutdown: 0
+[pid=30987][err] [31027:19730298:0605/142044.860621:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[pid=30987][err] [31027:19730298:0605/142044.860666:VERBOSE1:chrome/updater/updater.cc:419] UpdaterMain (--wake-all) returned 0.
+[pid=30987][err] [31032:19730318:0605/142054.729095:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[pid=30987][err] [31032:19730318:0605/142054.729164:VERBOSE1:chrome/updater/updater.cc:419] UpdaterMain (--crash-handler) returned 0.
+[pid=30987][err] [31029:19730302:0605/142054.731582:VERBOSE2:chrome/updater/event_history.cc:265] Emitted a UPDATER_PROCESS END event to the history log
+[pid=30987][err] [31029:19730302:0605/142054.731635:VERBOSE1:chrome/updater/updater.cc:419] UpdaterMain (--crash-handler) returned 0.
+[pid=30987][err] [30987:19729474:0605/142113.062544:ERROR:google_apis/gcm/engine/connection_factory_impl.cc:484] ConnectionHandler failed with net error: -2
+[pid=30987][err] [30987:19729474:0605/142118.037123:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[pid=30987] <gracefully close start>
+[14:50:44] 日志文件: /Users/gaobo/auto-study-project/auto-study.log
+[14:50:44] [启动] 启动浏览器...
+[14:50:44] [启动] 登录状态文件: /Users/gaobo/auto-study-project/auth-state.json
+[14:50:44] [启动] ✅ 找到已保存的登录状态
+[14:50:45] [1/2] 打开学习平台...
+[14:50:52] [1/2] 旧登录状态已过期，已清除
+[14:50:52] 
+[14:50:52] ┌────────────────────────────────────────────┐
+[14:50:52] │  👤 请在浏览器中登录你的账号               │
+[14:50:52] │  登录成功后回到终端按 回车键 继续          │
+[14:50:52] │                                            │
+[14:50:52] │  💡 登录一次即可，下次自动恢复登录状态     │
+[14:50:52] └────────────────────────────────────────────┘
+[14:50:52] 
+[14:50:56] [1/2] ✅ 登录状态已保存
+[14:50:56] [2/2] 开始自动刷课！
+[14:50:56] 
+[14:50:56] ────────────── 开始选新课 ──────────────
+[14:50:56] [选课] 选择"一般公需"分类...
+[14:50:56] [选课] 打开了第 1 个下拉框
+[14:50:57] [选课✅] 选中: 一般公需
+[14:50:59] [搜索] 点击查询...
+[14:50:59] [搜索] 点击: button:has-text("查询")
+[14:51:04] [选课] 从课程列表中选择最合适的课程...
+[14:51:04] [选课] 找到 30 个课程
+[14:51:04]   [#0] [科学素养]以火为墨 铁笔生花讲师：张海应时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:51:04]   [#1] [科学素养]以火为墨 出彩人生讲师：陈胜时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:51:04]   [#2] [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:51:04]   [#3] [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:51:04]   [#4] [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[14:51:04]   [排序#0] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50
+[14:51:04]   [排序#1] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50
+[14:51:04]   [排序#2] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50
+[14:51:04] [选课✅] 选中: 创新的力量：从拥抱5G到奔向火星（一） (相关性:13)
+[14:51:04] [选课] 尝试策略: Playwright原生点击itemBox
+[14:51:04] [选课] 找到 30 个 .itemBox
+[14:51:04] [选课] 点击 .itemBox[2]
+[14:51:04] [选课] 点击完成，等待5秒检查结果...
+[14:51:09] [选课] 策略 Playwright原生点击itemBox 点击后无跳转，尝试下一策略
+[14:51:09] [选课] 尝试策略: force点击itemBox
+[14:51:09] [选课] force点击 .itemBox[2]
+[14:51:09] [选课] 点击完成，等待5秒检查结果...
+[14:51:14] [选课] 策略 force点击itemBox 点击后无跳转，尝试下一策略
+[14:51:14] [选课] 尝试策略: 点击itemBox内img+文字div
+[14:51:15] [选课] 点击 .itemBox[2] 内部文字div
+[14:51:15] [选课] 点击完成，等待5秒检查结果...
+[14:51:20] [选课] 策略 点击itemBox内img+文字div 点击后无跳转，尝试下一策略
+[14:51:20] [选课] 尝试策略: JS dispatchEvent点击
+[14:51:20] [选课] JS dispatchEvent 点击
+[14:51:20] [选课] 点击完成，等待5秒检查结果...
+[14:51:25] [选课] 策略 JS dispatchEvent点击 点击后无跳转，尝试下一策略
+[14:51:25] [选课] 尝试策略: 点击课程名span
+[14:51:25] [选课] 点击课程名span: 创新的力量：从拥抱5G到奔向火星（一）
+[14:51:25] [选课] 点击完成，等待5秒检查结果...
+[14:51:30] [选课✅] 新标签页已打开: https://learning.hzrs.hangzhou.gov.cn/#/CourseDetail?courseid=4072386
+[14:51:30] [选课✅] 已到达详情页
+[14:51:30] [主流程] 详情页URL: https://learning.hzrs.hangzhou.gov.cn/#/CourseDetail?courseid=4072386
+[14:51:30] [详情] 在课程详情页点击"立即学习"...
+[14:51:30] [详情] 等待详情页加载...
+[14:51:34] [详情] Playwright点击: .el-button--primary:has-text("立即学习")
+[14:51:39] [详情✅] 视频在新标签页打开: https://learning.hzrs.hangzhou.gov.cn/#/class?courseId=4072386&coursetitle=%E5%88%9B%E6%96%B0%E7%9A%84%E5%8A%9B%E9%87%8F%EF%BC%9A%E4%BB%8E%E6%8B%A5%E6%8A%B15G%E5%88%B0%E5%A5%94%E5%90%91%E7%81%AB%E6%98%9F%EF%BC%88%E4%B8%80%EF%BC%89
+[14:51:54] [主流程] 视频在新标签页: https://learning.hzrs.hangzhou.gov.cn/#/class?courseId=4072386&coursetitle=%E5%88%9B%E6%96%B0%E7%9A%84%E5%8A%9B%E9%87%8F%EF%BC%9A%E4%BB%8E%E6%8B%A5%E6%8A%B15G%E5%88%B0%E5%A5%94%E5%90%91%E7%81%AB%E6%98%9F%EF%BC%88%E4%B8%80%EF%BC%89
+[14:51:54] [观看] 开始观看: 创新的力量：从拥抱5G到奔向火星（一）
+[14:51:59] [播放] 尝试播放视频...
+[14:51:59] [播放] JS play(): played
+[14:52:23] [视频] 00:25/15:28 | 2.7% | ▶播放 | 已完成0课
+[14:52:53] [视频] 00:55/15:28 | 5.9% | ▶播放 | 已完成0课
+[14:53:23] [视频] 01:25/15:28 | 9.2% | ▶播放 | 已完成0课
+[14:53:53] [视频] 01:55/15:28 | 12.4% | ▶播放 | 已完成0课
+[14:54:23] [视频] 02:25/15:28 | 15.7% | ▶播放 | 已完成0课
+[14:54:53] [视频] 02:55/15:28 | 18.9% | ▶播放 | 已完成0课
+[14:55:23] [视频] 03:25/15:28 | 22.2% | ▶播放 | 已完成0课
+[14:55:54] [视频] 03:55/15:28 | 25.4% | ▶播放 | 已完成0课
+[14:56:24] [视频] 04:26/15:28 | 28.7% | ▶播放 | 已完成0课
+[14:56:54] [视频] 04:56/15:28 | 31.9% | ▶播放 | 已完成0课
+[14:57:24] [视频] 05:26/15:28 | 35.1% | ▶播放 | 已完成0课
+[14:57:54] [视频] 05:56/15:28 | 38.4% | ▶播放 | 已完成0课
+[14:58:24] [视频] 06:26/15:28 | 41.6% | ▶播放 | 已完成0课
+[14:58:54] [视频] 06:56/15:28 | 44.9% | ▶播放 | 已完成0课
+[14:59:24] [视频] 07:26/15:28 | 48.1% | ▶播放 | 已完成0课
+[14:59:54] [视频] 07:56/15:28 | 51.4% | ▶播放 | 已完成0课
+[15:00:25] [视频] 08:26/15:28 | 54.6% | ▶播放 | 已完成0课
+[15:00:55] [视频] 08:57/15:28 | 57.9% | ▶播放 | 已完成0课
+[15:01:25] [视频] 09:27/15:28 | 61.1% | ▶播放 | 已完成0课
+[15:01:55] [视频] 09:57/15:28 | 64.3% | ▶播放 | 已完成0课
+[15:02:25] [视频] 10:27/15:28 | 67.6% | ▶播放 | 已完成0课
+[15:02:55] [视频] 10:57/15:28 | 70.8% | ▶播放 | 已完成0课
+[15:03:25] [视频] 11:27/15:28 | 74.1% | ▶播放 | 已完成0课
+[15:03:55] [视频] 11:57/15:28 | 77.3% | ▶播放 | 已完成0课
+[15:04:26] [视频] 12:27/15:28 | 80.6% | ▶播放 | 已完成0课
+[15:04:56] [视频] 12:50/15:28 | 83.0% | ▶播放 | 已完成0课
+[15:05:26] [视频] 13:13/15:28 | 85.5% | ▶播放 | 已完成0课
+[15:05:56] [视频] 13:35/15:28 | 87.8% | ▶播放 | 已完成0课
+[15:06:26] [视频] 13:58/15:28 | 90.3% | ▶播放 | 已完成0课
+[15:06:56] [视频] 14:25/15:28 | 93.3% | ▶播放 | 已完成0课
+[15:07:08] [弹窗✅] 自动点击: .el-message-box__btns .el-button--primary
+[15:07:27] [视频] 14:53/15:28 | 96.3% | ▶播放 | 已完成0课
+[15:07:57] [视频] 15:20/15:28 | 99.2% | ▶播放 | 已完成0课
+[15:08:04] 
+[15:08:04]   ══════════════════════════════════════
+[15:08:04]   ✅ 第1课完成！+1学时 | 累计: 1学时
+[15:08:04]   ══════════════════════════════════════
+[15:08:04] 
+[15:08:04] [导航] SPA内导航...
+[15:08:08] ────────────── 开始选新课 ──────────────
+[15:08:08] [选课] 选择"一般公需"分类...
+[15:08:08] [选课] 打开了第 1 个下拉框
+[15:08:09] [选课✅] 选中: 一般公需
+[15:08:11] [搜索] 点击查询...
+[15:08:11] [搜索] 点击: button:has-text("查询")
+[15:08:16] [选课] 从课程列表中选择最合适的课程...
+[15:08:16] [选课] 找到 30 个课程
+[15:08:16]   [#0] [科学素养]以火为墨 铁笔生花讲师：张海应时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:08:16]   [#1] [科学素养]以火为墨 出彩人生讲师：陈胜时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:08:16]   [#2] [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:08:16]   [#3] [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:08:16]   [#4] [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:08:16]   [排序#0] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50
+[15:08:16]   [排序#1] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50
+[15:08:16]   [排序#2] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50
+[15:08:16] [选课✅] 选中: 创新的力量：从拥抱5G到奔向火星（四） (相关性:13)
+[15:08:16] [选课] 尝试策略: Playwright原生点击itemBox
+[15:08:16] [选课] 找到 30 个 .itemBox
+[15:08:16] [选课] 点击 .itemBox[3]
+[15:08:16] [选课] 点击完成，等待5秒检查结果...
+[15:08:21] [选课] 策略 Playwright原生点击itemBox 点击后无跳转，尝试下一策略
+[15:08:21] [选课] 尝试策略: force点击itemBox
+[15:08:22] [选课] force点击 .itemBox[3]
+[15:08:22] [选课] 点击完成，等待5秒检查结果...
+[15:08:27] [选课] 策略 force点击itemBox 点击后无跳转，尝试下一策略
+[15:08:27] [选课] 尝试策略: 点击itemBox内img+文字div
+[15:08:27] [选课] 点击 .itemBox[3] 内部文字div
+[15:08:27] [选课] 点击完成，等待5秒检查结果...
+[15:08:32] [选课] 策略 点击itemBox内img+文字div 点击后无跳转，尝试下一策略
+[15:08:32] [选课] 尝试策略: JS dispatchEvent点击
+[15:08:32] [选课] JS dispatchEvent 点击
+[15:08:32] [选课] 点击完成，等待5秒检查结果...
+[15:08:37] [选课] 策略 JS dispatchEvent点击 点击后无跳转，尝试下一策略
+[15:08:37] [选课] 尝试策略: 点击课程名span
+[15:08:38] [选课] 点击课程名span: 创新的力量：从拥抱5G到奔向火星（四）
+[15:08:38] [选课] 点击完成，等待5秒检查结果...
+[15:08:43] [选课✅] 新标签页已打开: https://learning.hzrs.hangzhou.gov.cn/#/CourseDetail?courseid=4072385
+[15:08:43] [选课✅] 已到达详情页
+[15:08:43] [主流程] 详情页URL: https://learning.hzrs.hangzhou.gov.cn/#/CourseDetail?courseid=4072385
+[15:08:43] [详情] 在课程详情页点击"立即学习"...
+[15:08:43] [详情] 等待详情页加载...
+[15:08:46] [详情] Playwright点击: .el-button--primary:has-text("立即学习")
+[15:08:51] [详情✅] 视频在新标签页打开: https://learning.hzrs.hangzhou.gov.cn/#/class?courseId=4072385&coursetitle=%E5%88%9B%E6%96%B0%E7%9A%84%E5%8A%9B%E9%87%8F%EF%BC%9A%E4%BB%8E%E6%8B%A5%E6%8A%B15G%E5%88%B0%E5%A5%94%E5%90%91%E7%81%AB%E6%98%9F%EF%BC%88%E5%9B%9B%EF%BC%89
+[15:09:06] [主流程] 视频在新标签页: https://learning.hzrs.hangzhou.gov.cn/#/class?courseId=4072385&coursetitle=%E5%88%9B%E6%96%B0%E7%9A%84%E5%8A%9B%E9%87%8F%EF%BC%9A%E4%BB%8E%E6%8B%A5%E6%8A%B15G%E5%88%B0%E5%A5%94%E5%90%91%E7%81%AB%E6%98%9F%EF%BC%88%E5%9B%9B%EF%BC%89
+[15:09:06] [观看] 开始观看: 创新的力量：从拥抱5G到奔向火星（四）
+[15:09:11] [播放] 尝试播放视频...
+[15:09:11] [播放] JS play(): played
+[15:09:35] [视频] 00:25/13:29 | 3.1% | ▶播放 | 已完成1课
+[15:10:05] [视频] 00:55/13:29 | 6.8% | ▶播放 | 已完成1课
+[15:10:35] [视频] 01:25/13:29 | 10.5% | ▶播放 | 已完成1课
+[15:11:05] [视频] 01:55/13:29 | 14.3% | ▶播放 | 已完成1课
+[15:11:35] [视频] 02:25/13:29 | 18.0% | ▶播放 | 已完成1课
+[15:12:05] [视频] 02:55/13:29 | 21.7% | ▶播放 | 已完成1课
+[15:12:36] [视频] 03:22/13:29 | 25.0% | ▶播放 | 已完成1课
+[15:13:06] [视频] 03:52/13:29 | 28.8% | ▶播放 | 已完成1课
+[15:13:36] [视频] 04:11/13:29 | 31.1% | ▶播放 | 已完成1课
+[15:14:06] [视频] 04:23/13:29 | 32.6% | ▶播放 | 已完成1课
+[15:14:36] [视频] 04:23/13:29 | 32.6% | ▶播放 | 已完成1课
+[15:15:06] [视频] 04:23/13:29 | 32.6% | ▶播放 | 已完成1课
+[15:15:36] [视频] 04:23/13:29 | 32.6% | ▶播放 | 已完成1课
+[15:16:06] [视频] 04:23/13:29 | 32.6% | ▶播放 | 已完成1课
+[15:16:37] [视频] 04:23/13:29 | 32.6% | ▶播放 | 已完成1课
+[15:17:07] [视频] 04:23/13:29 | 32.6% | ▶播放 | 已完成1课
+[15:17:37] [视频] 04:23/13:29 | 32.6% | ▶播放 | 已完成1课
+[15:18:07] [视频] 04:23/13:29 | 32.6% | ▶播放 | 已完成1课
+[15:18:37] [视频] 04:23/13:29 | 32.6% | ▶播放 | 已完成1课
+[15:19:07] [视频] 04:40/13:29 | 34.6% | ▶播放 | 已完成1课
+[15:19:37] [视频] 05:10/13:29 | 38.4% | ▶播放 | 已完成1课
+[15:20:07] [视频] 05:40/13:29 | 42.1% | ▶播放 | 已完成1课
+[15:20:38] [视频] 06:10/13:29 | 45.8% | ▶播放 | 已完成1课
+[15:21:08] [视频] 06:40/13:29 | 49.5% | ▶播放 | 已完成1课
+[15:21:38] [视频] 07:10/13:29 | 53.2% | ▶播放 | 已完成1课
+[15:21:50] [弹窗✅] 自动点击: .el-message-box__btns .el-button--primary
+[15:22:09] [视频] 07:39/13:29 | 56.7% | ▶播放 | 已完成1课
+[15:22:39] [视频] 08:09/13:29 | 60.5% | ▶播放 | 已完成1课
+[15:23:09] [视频] 08:39/13:29 | 64.2% | ▶播放 | 已完成1课
+[15:23:39] [视频] 09:09/13:29 | 67.9% | ▶播放 | 已完成1课
+[15:24:09] [视频] 09:39/13:29 | 71.6% | ▶播放 | 已完成1课
+[15:24:40] [视频] 10:09/13:29 | 75.3% | ▶播放 | 已完成1课
+[15:25:10] [视频] 10:39/13:29 | 79.1% | ▶播放 | 已完成1课
+[15:25:40] [视频] 11:09/13:29 | 82.8% | ▶播放 | 已完成1课
+[15:26:10] [视频] 11:40/13:29 | 86.5% | ▶播放 | 已完成1课
+[15:26:40] [视频] 12:10/13:29 | 90.2% | ▶播放 | 已完成1课
+[15:27:10] [视频] 12:40/13:29 | 94.0% | ▶播放 | 已完成1课
+[15:27:40] [视频] 13:10/13:29 | 97.7% | ▶播放 | 已完成1课
+[15:27:58] 
+[15:27:58]   ══════════════════════════════════════
+[15:27:58]   ✅ 第2课完成！+1学时 | 累计: 2学时
+[15:27:58]   ══════════════════════════════════════
+[15:27:58] 
+[15:27:58] [导航] SPA内导航...
+[15:28:02] ────────────── 开始选新课 ──────────────
+[15:28:02] [选课] 选择"一般公需"分类...
+[15:28:03] [选课] 打开了第 1 个下拉框
+[15:28:04] [选课✅] 选中: 一般公需
+[15:28:06] [搜索] 点击查询...
+[15:28:06] [搜索] 点击: button:has-text("查询")
+[15:28:11] [选课] 从课程列表中选择最合适的课程...
+[15:28:11] [选课] 找到 30 个课程
+[15:28:11]   [#0] [科学素养]以火为墨 铁笔生花讲师：张海应时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:28:11]   [#1] [科学素养]以火为墨 出彩人生讲师：陈胜时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:28:11]   [#2] [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:28:11]   [#3] [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:28:11]   [#4] [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:28:11]   [排序#0] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50
+[15:28:11]   [排序#1] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50
+[15:28:11]   [排序#2] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50
+[15:28:11] [选课✅] 选中: 创新的力量：从拥抱5G到奔向火星（三） (相关性:13)
+[15:28:11] [选课] 尝试策略: Playwright原生点击itemBox
+[15:28:11] [选课] 找到 30 个 .itemBox
+[15:28:11] [选课] 点击 .itemBox[4]
+[15:28:11] [选课] 点击完成，等待5秒检查结果...
+[15:28:16] [选课] 策略 Playwright原生点击itemBox 点击后无跳转，尝试下一策略
+[15:28:16] [选课] 尝试策略: force点击itemBox
+[15:28:16] [选课] force点击 .itemBox[4]
+[15:28:16] [选课] 点击完成，等待5秒检查结果...
+[15:28:21] [选课] 策略 force点击itemBox 点击后无跳转，尝试下一策略
+[15:28:21] [选课] 尝试策略: 点击itemBox内img+文字div
+[15:28:22] [选课] 点击 .itemBox[4] 内部文字div
+[15:28:22] [选课] 点击完成，等待5秒检查结果...
+[15:28:27] [选课] 策略 点击itemBox内img+文字div 点击后无跳转，尝试下一策略
+[15:28:27] [选课] 尝试策略: JS dispatchEvent点击
+[15:28:27] [选课] JS dispatchEvent 点击
+[15:28:27] [选课] 点击完成，等待5秒检查结果...
+[15:28:32] [选课] 策略 JS dispatchEvent点击 点击后无跳转，尝试下一策略
+[15:28:32] [选课] 尝试策略: 点击课程名span
+[15:28:32] [选课] 点击课程名span: 创新的力量：从拥抱5G到奔向火星（三）
+[15:28:32] [选课] 点击完成，等待5秒检查结果...
+[15:28:37] [选课✅] 新标签页已打开: https://learning.hzrs.hangzhou.gov.cn/#/CourseDetail?courseid=4072384
+[15:28:37] [选课✅] 已到达详情页
+[15:28:37] [主流程] 详情页URL: https://learning.hzrs.hangzhou.gov.cn/#/CourseDetail?courseid=4072384
+[15:28:37] [详情] 在课程详情页点击"立即学习"...
+[15:28:37] [详情] 等待详情页加载...
+[15:28:41] [详情] Playwright点击: .el-button--primary:has-text("立即学习")
+[15:28:46] [详情✅] 视频在新标签页打开: https://learning.hzrs.hangzhou.gov.cn/#/class?courseId=4072384&coursetitle=%E5%88%9B%E6%96%B0%E7%9A%84%E5%8A%9B%E9%87%8F%EF%BC%9A%E4%BB%8E%E6%8B%A5%E6%8A%B15G%E5%88%B0%E5%A5%94%E5%90%91%E7%81%AB%E6%98%9F%EF%BC%88%E4%B8%89%EF%BC%89
+[15:29:01] [主流程] 视频在新标签页: https://learning.hzrs.hangzhou.gov.cn/#/class?courseId=4072384&coursetitle=%E5%88%9B%E6%96%B0%E7%9A%84%E5%8A%9B%E9%87%8F%EF%BC%9A%E4%BB%8E%E6%8B%A5%E6%8A%B15G%E5%88%B0%E5%A5%94%E5%90%91%E7%81%AB%E6%98%9F%EF%BC%88%E4%B8%89%EF%BC%89
+[15:29:01] [观看] 开始观看: 创新的力量：从拥抱5G到奔向火星（三）
+[15:29:06] [播放] 尝试播放视频...
+[15:29:06] [播放] JS play(): played
+[15:29:30] [视频] 00:25/15:54 | 2.6% | ▶播放 | 已完成2课
+[15:30:00] [视频] 00:55/15:54 | 5.8% | ▶播放 | 已完成2课
+[15:30:30] [视频] 01:25/15:54 | 8.9% | ▶播放 | 已完成2课
+[15:31:00] [视频] 01:55/15:54 | 12.1% | ▶播放 | 已完成2课
+[15:31:30] [视频] 02:25/15:54 | 15.3% | ▶播放 | 已完成2课
+[15:32:00] [视频] 02:55/15:54 | 18.4% | ▶播放 | 已完成2课
+[15:32:30] [视频] 03:25/15:54 | 21.6% | ▶播放 | 已完成2课
+[15:33:01] [视频] 03:55/15:54 | 24.7% | ▶播放 | 已完成2课
+[15:33:31] [视频] 04:25/15:54 | 27.9% | ▶播放 | 已完成2课
+[15:34:01] [视频] 04:56/15:54 | 31.0% | ▶播放 | 已完成2课
+[15:34:31] [视频] 05:26/15:54 | 34.2% | ▶播放 | 已完成2课
+[15:34:42] 
+[退出] 收到 SIGINT 信号，保存登录状态...
+[15:34:42] [退出] 保存状态失败: browserContext.storageState: Target page, context or browser has been closed
+[15:35:52] 日志文件: /Users/gaobo/auto-study-project/auto-study.log
+[15:35:52] [启动] 启动浏览器...
+[15:35:52] [启动] 登录状态文件: /Users/gaobo/auto-study-project/auth-state.json
+[15:35:54] [启动] ✅ 找到已保存的登录状态
+[15:35:55] [1/2] 打开学习平台...
+[15:36:15] [1/2] 旧登录状态已过期，已清除
+[15:36:15] 
+[15:36:15] ┌────────────────────────────────────────────┐
+[15:36:15] │  👤 请在浏览器中登录你的账号               │
+[15:36:15] │  登录成功后回到终端按 回车键 继续          │
+[15:36:15] │                                            │
+[15:36:15] │  💡 登录一次即可，下次自动恢复登录状态     │
+[15:36:15] └────────────────────────────────────────────┘
+[15:36:15] 
+[15:36:15] [1/2] ✅ 登录状态已保存
+[15:36:15] [2/2] 开始自动刷课！
+[15:36:15] 
+[15:36:15] [去重] 新建已学课程记录文件
+[15:36:15] ────────────── 开始选新课 ──────────────
+[15:36:15] [选课] 选择"一般公需"分类...
+[15:36:15] [选课] 打开了第 1 个下拉框
+[15:36:16] [选课✅] 选中: 一般公需
+[15:36:18] [搜索] 点击查询...
+[15:36:18] [搜索] 点击: button:has-text("查询")
+[15:36:23] [选课] 从课程列表中选择最合适的课程...
+[15:36:23] [选课] 找到 30 个课程
+[15:36:23]   [#0] [科学素养]以火为墨 铁笔生花讲师：张海应时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:36:23]   [#1] [科学素养]以火为墨 出彩人生讲师：陈胜时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:36:23]   [#2] [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:36:23]   [#3] [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:36:23]   [#4] [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:36:23]   [排序#0] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50
+[15:36:23]   [排序#1] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50
+[15:36:23]   [排序#2] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50
+[15:36:23] [选课✅] 选中: 创新的力量：从拥抱5G到奔向火星（一） (相关性:13)
+[15:36:23] [选课] 尝试策略: Playwright原生点击itemBox
+[15:36:23] [选课] 找到 30 个 .itemBox
+[15:36:24] [选课] 点击 .itemBox[2]
+[15:36:24] [选课] 点击完成，等待5秒检查结果...
+[15:36:29] [选课] 策略 Playwright原生点击itemBox 点击后无跳转，尝试下一策略
+[15:36:29] [选课] 尝试策略: force点击itemBox
+[15:36:29] [选课] force点击 .itemBox[2]
+[15:36:29] [选课] 点击完成，等待5秒检查结果...
+[15:36:34] [选课] 策略 force点击itemBox 点击后无跳转，尝试下一策略
+[15:36:34] [选课] 尝试策略: 点击itemBox内img+文字div
+[15:36:35] [选课] 点击 .itemBox[2] 内部文字div
+[15:36:35] [选课] 点击完成，等待5秒检查结果...
+[15:36:40] [选课] 策略 点击itemBox内img+文字div 点击后无跳转，尝试下一策略
+[15:36:40] [选课] 尝试策略: JS dispatchEvent点击
+[15:36:40] [选课] JS dispatchEvent 点击
+[15:36:40] [选课] 点击完成，等待5秒检查结果...
+[15:36:45] [选课] 策略 JS dispatchEvent点击 点击后无跳转，尝试下一策略
+[15:36:45] [选课] 尝试策略: 点击课程名span
+[15:36:45] [选课] 点击课程名span: 创新的力量：从拥抱5G到奔向火星（一）
+[15:36:45] [选课] 点击完成，等待5秒检查结果...
+[15:36:50] [选课✅] 新标签页已打开: https://learning.hzrs.hangzhou.gov.cn/#/CourseDetail?courseid=4072386
+[15:36:50] [选课✅] 已到达详情页
+[15:36:50] [主流程] 详情页URL: https://learning.hzrs.hangzhou.gov.cn/#/CourseDetail?courseid=4072386
+[15:36:50] [详情] 在课程详情页点击"立即学习"...
+[15:36:50] [详情] 等待详情页加载...
+[15:36:53] [详情] Playwright点击: .el-button--primary:has-text("立即学习")
+[15:36:58] [详情✅] 视频在新标签页打开: https://learning.hzrs.hangzhou.gov.cn/#/class?courseId=4072386&coursetitle=%E5%88%9B%E6%96%B0%E7%9A%84%E5%8A%9B%E9%87%8F%EF%BC%9A%E4%BB%8E%E6%8B%A5%E6%8A%B15G%E5%88%B0%E5%A5%94%E5%90%91%E7%81%AB%E6%98%9F%EF%BC%88%E4%B8%80%EF%BC%89
+[15:37:07] [主流程] 视频在新标签页: https://learning.hzrs.hangzhou.gov.cn/#/class?courseId=4072386&coursetitle=%E5%88%9B%E6%96%B0%E7%9A%84%E5%8A%9B%E9%87%8F%EF%BC%9A%E4%BB%8E%E6%8B%A5%E6%8A%B15G%E5%88%B0%E5%A5%94%E5%90%91%E7%81%AB%E6%98%9F%EF%BC%88%E4%B8%80%EF%BC%89
+[15:37:07] [观看] 开始观看: 创新的力量：从拥抱5G到奔向火星（一）
+[15:37:12] [播放] 尝试播放视频...
+[15:37:12] [播放] JS play(): played
+[15:37:12] [去重] ✅ 已保存新课程: 创新的力量：从拥抱5G到奔向火星（一）
+[15:37:12] 
+[15:37:12]   ══════════════════════════════════════
+[15:37:12]   ✅ 第1课完成！+1学时 | 累计: 1学时
+[15:37:12]   ══════════════════════════════════════
+[15:37:12] 
+[15:37:14] ────────────── 开始选新课 ──────────────
+[15:37:14] [选课] 选择"一般公需"分类...
+[15:37:14] [选课] 打开了第 1 个下拉框
+[15:37:15] [选课✅] 选中: 一般公需
+[15:37:17] [搜索] 点击查询...
+[15:37:17] [搜索] 点击: button:has-text("查询")
+[15:37:22] [选课] 从课程列表中选择最合适的课程...
+[15:37:22] [选课] 找到 30 个课程
+[15:37:22]   [#0] [科学素养]以火为墨 铁笔生花讲师：张海应时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:37:22]   [#1] [科学素养]以火为墨 出彩人生讲师：陈胜时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:37:22]   [#2] [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:37:22]   [#3] [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:37:22]   [#4] [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:37:22]   [排序#0] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50
+[15:37:22]   [排序#1] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50
+[15:37:22]   [排序#2] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50
+[15:37:22] [去重] 过滤掉 1 门已学课程，剩余 29 门可选
+[15:37:22] [选课✅] 选中: 创新的力量：从拥抱5G到奔向火星（四） (相关性:13)
+[15:37:22] [选课] 尝试策略: Playwright原生点击itemBox
+[15:37:22] [选课] 找到 30 个 .itemBox
+[15:37:22] [选课] 点击 .itemBox[3]
+[15:37:22] [选课] 点击完成，等待5秒检查结果...
+[15:37:27] [选课] 策略 Playwright原生点击itemBox 点击后无跳转，尝试下一策略
+[15:37:27] [选课] 尝试策略: force点击itemBox
+[15:37:28] [选课] force点击 .itemBox[3]
+[15:37:28] [选课] 点击完成，等待5秒检查结果...
+[15:37:33] [选课] 策略 force点击itemBox 点击后无跳转，尝试下一策略
+[15:37:33] [选课] 尝试策略: 点击itemBox内img+文字div
+[15:37:33] [选课] 点击 .itemBox[3] 内部文字div
+[15:37:33] [选课] 点击完成，等待5秒检查结果...
+[15:37:38] [选课] 策略 点击itemBox内img+文字div 点击后无跳转，尝试下一策略
+[15:37:38] [选课] 尝试策略: JS dispatchEvent点击
+[15:37:38] [选课] JS dispatchEvent 点击
+[15:37:38] [选课] 点击完成，等待5秒检查结果...
+[15:37:43] [选课] 策略 JS dispatchEvent点击 点击后无跳转，尝试下一策略
+[15:37:43] [选课] 尝试策略: 点击课程名span
+[15:37:44] [选课] 点击课程名span: 创新的力量：从拥抱5G到奔向火星（四）
+[15:37:44] [选课] 点击完成，等待5秒检查结果...
+[15:37:49] [选课✅] 新标签页已打开: https://learning.hzrs.hangzhou.gov.cn/#/CourseDetail?courseid=4072385
+[15:37:49] [选课✅] 已到达详情页
+[15:37:49] [主流程] 详情页URL: https://learning.hzrs.hangzhou.gov.cn/#/CourseDetail?courseid=4072385
+[15:37:49] [详情] 在课程详情页点击"立即学习"...
+[15:37:49] [详情] 等待详情页加载...
+[15:37:52] [详情] Playwright点击: .el-button--primary:has-text("立即学习")
+[15:37:57] [详情✅] 视频在新标签页打开: https://learning.hzrs.hangzhou.gov.cn/#/class?courseId=4072385&coursetitle=%E5%88%9B%E6%96%B0%E7%9A%84%E5%8A%9B%E9%87%8F%EF%BC%9A%E4%BB%8E%E6%8B%A5%E6%8A%B15G%E5%88%B0%E5%A5%94%E5%90%91%E7%81%AB%E6%98%9F%EF%BC%88%E5%9B%9B%EF%BC%89
+[15:38:09] [主流程] 视频在新标签页: https://learning.hzrs.hangzhou.gov.cn/#/class?courseId=4072385&coursetitle=%E5%88%9B%E6%96%B0%E7%9A%84%E5%8A%9B%E9%87%8F%EF%BC%9A%E4%BB%8E%E6%8B%A5%E6%8A%B15G%E5%88%B0%E5%A5%94%E5%90%91%E7%81%AB%E6%98%9F%EF%BC%88%E5%9B%9B%EF%BC%89
+[15:38:09] [观看] 开始观看: 创新的力量：从拥抱5G到奔向火星（四）
+[15:38:14] [播放] 尝试播放视频...
+[15:38:14] [播放] JS play(): played
+[15:38:14] [弹窗✅] 自动点击: .el-message-box__btns .el-button--primary
+[15:38:15] [视频] 13:29/13:29 | 100.0% | ✅结束 | 已完成1课
+[15:38:15] [去重] ✅ 已保存新课程: 创新的力量：从拥抱5G到奔向火星（四）
+[15:38:15] 
+[15:38:15]   ══════════════════════════════════════
+[15:38:15]   ✅ 第2课完成！+1学时 | 累计: 2学时
+[15:38:15]   ══════════════════════════════════════
+[15:38:15] 
+[15:38:18] ────────────── 开始选新课 ──────────────
+[15:38:18] [选课] 选择"一般公需"分类...
+[15:38:18] [选课] 打开了第 1 个下拉框
+[15:38:19] [选课✅] 选中: 一般公需
+[15:38:21] [搜索] 点击查询...
+[15:38:21] [搜索] 点击: button:has-text("查询")
+[15:38:26] [选课] 从课程列表中选择最合适的课程...
+[15:38:26] [选课] 找到 30 个课程
+[15:38:26]   [#0] [科学素养]以火为墨 铁笔生花讲师：张海应时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:38:26]   [#1] [科学素养]以火为墨 出彩人生讲师：陈胜时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:38:26]   [#2] [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:38:26]   [#3] [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:38:26]   [#4] [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:38:26]   [排序#0] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50
+[15:38:26]   [排序#1] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50
+[15:38:26]   [排序#2] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50
+[15:38:26] [去重] 过滤掉 2 门已学课程，剩余 28 门可选
+[15:38:26] [选课✅] 选中: 创新的力量：从拥抱5G到奔向火星（三） (相关性:13)
+[15:38:26] [选课] 尝试策略: Playwright原生点击itemBox
+[15:38:26] [选课] 找到 30 个 .itemBox
+[15:38:26] [选课] 点击 .itemBox[4]
+[15:38:26] [选课] 点击完成，等待5秒检查结果...
+[15:38:31] [选课✅] 新标签页已打开: https://learning.hzrs.hangzhou.gov.cn/#/backIndex
+[15:38:31] [选课✅] 已到达其他页
+[15:38:31] [主流程] 详情页URL: https://learning.hzrs.hangzhou.gov.cn/#/backIndex
+[15:38:31] [详情] 在课程详情页点击"立即学习"...
+[15:38:31] [详情] 当前不在详情页(=site)，等待跳转...
+[15:38:34] [详情] 页面类型仍为 site，无法点击
+[15:38:34] [❌] 无法开始学习，换下一课...
+[15:38:35] ────────────── 开始选新课 ──────────────
+[15:38:35] [选课] 选择"一般公需"分类...
+[15:38:35] [选课] 打开了第 1 个下拉框
+[15:38:36] [选课✅] 选中: 一般公需
+[15:38:38] [搜索] 点击查询...
+[15:38:38] [搜索] 点击: button:has-text("查询")
+[15:38:43] [选课] 从课程列表中选择最合适的课程...
+[15:38:43] [选课] 找到 30 个课程
+[15:38:43]   [#0] [科学素养]以火为墨 铁笔生花讲师：张海应时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:38:43]   [#1] [科学素养]以火为墨 出彩人生讲师：陈胜时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:38:43]   [#2] [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:38:43]   [#3] [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:38:43]   [#4] [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:38:43]   [排序#0] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50
+[15:38:43]   [排序#1] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50
+[15:38:43]   [排序#2] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50
+[15:38:43] [去重] 过滤掉 2 门已学课程，剩余 28 门可选
+[15:38:43] [选课✅] 选中: 创新的力量：从拥抱5G到奔向火星（三） (相关性:13)
+[15:38:43] [选课] 尝试策略: Playwright原生点击itemBox
+[15:38:43] [选课] 找到 30 个 .itemBox
+[15:38:43] [选课] 点击 .itemBox[4]
+[15:38:43] [选课] 点击完成，等待5秒检查结果...
+[15:38:48] [选课] 策略 Playwright原生点击itemBox 点击后无跳转，尝试下一策略
+[15:38:48] [选课] 尝试策略: force点击itemBox
+[15:38:48] [选课] force点击 .itemBox[4]
+[15:38:48] [选课] 点击完成，等待5秒检查结果...
+[15:38:53] [选课] 策略 force点击itemBox 点击后无跳转，尝试下一策略
+[15:38:53] [选课] 尝试策略: 点击itemBox内img+文字div
+[15:38:54] [选课] 点击 .itemBox[4] 内部文字div
+[15:38:54] [选课] 点击完成，等待5秒检查结果...
+[15:38:59] [选课] 策略 点击itemBox内img+文字div 点击后无跳转，尝试下一策略
+[15:38:59] [选课] 尝试策略: JS dispatchEvent点击
+[15:38:59] [选课] JS dispatchEvent 点击
+[15:38:59] [选课] 点击完成，等待5秒检查结果...
+[15:39:04] [选课] 策略 JS dispatchEvent点击 点击后无跳转，尝试下一策略
+[15:39:04] [选课] 尝试策略: 点击课程名span
+[15:39:04] [选课] 点击课程名span: 创新的力量：从拥抱5G到奔向火星（三）
+[15:39:04] [选课] 点击完成，等待5秒检查结果...
+[15:39:09] [选课✅] 新标签页已打开: https://learning.hzrs.hangzhou.gov.cn/#/CourseDetail?courseid=4072384
+[15:39:09] [选课✅] 已到达详情页
+[15:39:09] [主流程] 详情页URL: https://learning.hzrs.hangzhou.gov.cn/#/CourseDetail?courseid=4072384
+[15:39:09] [详情] 在课程详情页点击"立即学习"...
+[15:39:09] [详情] 等待详情页加载...
+[15:39:13] [详情] Playwright点击: .el-button--primary:has-text("立即学习")
+[15:39:18] [详情✅] 视频在新标签页打开: https://learning.hzrs.hangzhou.gov.cn/#/class?courseId=4072384&coursetitle=%E5%88%9B%E6%96%B0%E7%9A%84%E5%8A%9B%E9%87%8F%EF%BC%9A%E4%BB%8E%E6%8B%A5%E6%8A%B15G%E5%88%B0%E5%A5%94%E5%90%91%E7%81%AB%E6%98%9F%EF%BC%88%E4%B8%89%EF%BC%89
+[15:39:33] [主流程] 视频在新标签页: https://learning.hzrs.hangzhou.gov.cn/#/class?courseId=4072384&coursetitle=%E5%88%9B%E6%96%B0%E7%9A%84%E5%8A%9B%E9%87%8F%EF%BC%9A%E4%BB%8E%E6%8B%A5%E6%8A%B15G%E5%88%B0%E5%A5%94%E5%90%91%E7%81%AB%E6%98%9F%EF%BC%88%E4%B8%89%EF%BC%89
+[15:39:33] [观看] 开始观看: 创新的力量：从拥抱5G到奔向火星（三）
+[15:39:38] [播放] 尝试播放视频...
+[15:39:38] [播放] JS play(): played
+[15:40:02] [视频] 00:25/15:54 | 2.6% | ▶播放 | 已完成2课
+[15:40:32] [视频] 00:55/15:54 | 5.8% | ▶播放 | 已完成2课
+[15:41:02] [视频] 01:25/15:54 | 8.9% | ▶播放 | 已完成2课
+[15:41:32] [视频] 01:55/15:54 | 12.1% | ▶播放 | 已完成2课
+[15:42:02] [视频] 02:25/15:54 | 15.3% | ▶播放 | 已完成2课
+[15:42:32] [视频] 02:55/15:54 | 18.4% | ▶播放 | 已完成2课
+[15:43:02] [视频] 03:25/15:54 | 21.6% | ▶播放 | 已完成2课
+[15:43:32] [视频] 03:55/15:54 | 24.7% | ▶播放 | 已完成2课
+[15:44:03] [视频] 04:25/15:54 | 27.9% | ▶播放 | 已完成2课
+[15:44:33] [视频] 04:56/15:54 | 31.0% | ▶播放 | 已完成2课
+[15:45:03] [视频] 05:26/15:54 | 34.2% | ▶播放 | 已完成2课
+[15:45:33] [视频] 05:56/15:54 | 37.4% | ▶播放 | 已完成2课
+[15:46:03] [视频] 06:26/15:54 | 40.5% | ▶播放 | 已完成2课
+[15:46:33] [视频] 06:56/15:54 | 43.7% | ▶播放 | 已完成2课
+[15:47:03] [视频] 07:26/15:54 | 46.8% | ▶播放 | 已完成2课
+[15:47:33] [视频] 07:56/15:54 | 50.0% | ▶播放 | 已完成2课
+[15:48:04] [视频] 08:26/15:54 | 53.1% | ▶播放 | 已完成2课
+[15:48:34] [视频] 08:57/15:54 | 56.3% | ▶播放 | 已完成2课
+[15:49:04] [视频] 09:27/15:54 | 59.4% | ▶播放 | 已完成2课
+[15:49:28] [弹窗✅] 自动点击: .el-message-box__btns .el-button--primary
+[15:49:35] [视频] 09:58/15:54 | 62.7% | ▶播放 | 已完成2课
+[15:50:05] [视频] 10:28/15:54 | 65.8% | ▶播放 | 已完成2课
+[15:50:35] [视频] 10:58/15:54 | 69.0% | ▶播放 | 已完成2课
+[15:51:05] [视频] 11:28/15:54 | 72.2% | ▶播放 | 已完成2课
+[15:51:35] [视频] 11:58/15:54 | 75.3% | ▶播放 | 已完成2课
+[15:52:06] [视频] 12:28/15:54 | 78.5% | ▶播放 | 已完成2课
+[15:52:36] [视频] 12:58/15:54 | 81.6% | ▶播放 | 已完成2课
+[15:53:06] [视频] 13:28/15:54 | 84.8% | ▶播放 | 已完成2课
+[15:53:36] [视频] 13:58/15:54 | 87.9% | ▶播放 | 已完成2课
+[15:54:06] [视频] 14:29/15:54 | 91.1% | ▶播放 | 已完成2课
+[15:54:36] [视频] 14:59/15:54 | 94.2% | ▶播放 | 已完成2课
+[15:55:06] [视频] 15:29/15:54 | 97.4% | ▶播放 | 已完成2课
+[15:55:30] [去重] ✅ 已保存新课程: 创新的力量：从拥抱5G到奔向火星（三）
+[15:55:30] 
+[15:55:30]   ══════════════════════════════════════
+[15:55:30]   ✅ 第3课完成！+1学时 | 累计: 3学时
+[15:55:30]   ══════════════════════════════════════
+[15:55:30] 
+[15:55:30] [导航] SPA内导航...
+[15:55:34] ────────────── 开始选新课 ──────────────
+[15:55:34] [选课] 选择"一般公需"分类...
+[15:55:34] [选课] 打开了第 1 个下拉框
+[15:55:35] [选课✅] 选中: 一般公需
+[15:55:37] [搜索] 点击查询...
+[15:55:38] [搜索] 点击: button:has-text("查询")
+[15:55:43] [选课] 从课程列表中选择最合适的课程...
+[15:55:43] [选课] 找到 30 个课程
+[15:55:43]   [#0] [科学素养]以火为墨 铁笔生花讲师：张海应时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:55:43]   [#1] [科学素养]以火为墨 出彩人生讲师：陈胜时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:55:43]   [#2] [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:55:43]   [#3] [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:55:43]   [#4] [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[15:55:43]   [排序#0] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50
+[15:55:43]   [排序#1] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50
+[15:55:43]   [排序#2] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50
+[15:55:43] [去重] 过滤掉 3 门已学课程，剩余 27 门可选
+[15:55:43] [选课✅] 选中: 创新的力量：从拥抱5G到奔向火星（二） (相关性:13)
+[15:55:43] [选课] 尝试策略: Playwright原生点击itemBox
+[15:55:43] [选课] 找到 30 个 .itemBox
+[15:55:43] [选课] 点击 .itemBox[5]
+[15:55:43] [选课] 点击完成，等待5秒检查结果...
+[15:55:48] [选课] 策略 Playwright原生点击itemBox 点击后无跳转，尝试下一策略
+[15:55:48] [选课] 尝试策略: force点击itemBox
+[15:55:48] [选课] force点击 .itemBox[5]
+[15:55:48] [选课] 点击完成，等待5秒检查结果...
+[15:55:53] [选课] 策略 force点击itemBox 点击后无跳转，尝试下一策略
+[15:55:53] [选课] 尝试策略: 点击itemBox内img+文字div
+[15:55:54] [选课] 点击 .itemBox[5] 内部文字div
+[15:55:54] [选课] 点击完成，等待5秒检查结果...
+[15:55:59] [选课] 策略 点击itemBox内img+文字div 点击后无跳转，尝试下一策略
+[15:55:59] [选课] 尝试策略: JS dispatchEvent点击
+[15:55:59] [选课] JS dispatchEvent 点击
+[15:55:59] [选课] 点击完成，等待5秒检查结果...
+[15:56:04] [选课] 策略 JS dispatchEvent点击 点击后无跳转，尝试下一策略
+[15:56:04] [选课] 尝试策略: 点击课程名span
+[15:56:04] [选课] 点击课程名span: 创新的力量：从拥抱5G到奔向火星（二）
+[15:56:04] [选课] 点击完成，等待5秒检查结果...
+[15:56:09] [选课✅] 新标签页已打开: https://learning.hzrs.hangzhou.gov.cn/#/CourseDetail?courseid=4072383
+[15:56:09] [选课✅] 已到达详情页
+[15:56:09] [主流程] 详情页URL: https://learning.hzrs.hangzhou.gov.cn/#/CourseDetail?courseid=4072383
+[15:56:09] [详情] 在课程详情页点击"立即学习"...
+[15:56:09] [详情] 等待详情页加载...
+[15:56:12] [详情] Playwright点击: .el-button--primary:has-text("立即学习")
+[15:56:17] [详情✅] 视频在新标签页打开: https://learning.hzrs.hangzhou.gov.cn/#/class?courseId=4072383&coursetitle=%E5%88%9B%E6%96%B0%E7%9A%84%E5%8A%9B%E9%87%8F%EF%BC%9A%E4%BB%8E%E6%8B%A5%E6%8A%B15G%E5%88%B0%E5%A5%94%E5%90%91%E7%81%AB%E6%98%9F%EF%BC%88%E4%BA%8C%EF%BC%89
+[15:56:32] [主流程] 视频在新标签页: https://learning.hzrs.hangzhou.gov.cn/#/class?courseId=4072383&coursetitle=%E5%88%9B%E6%96%B0%E7%9A%84%E5%8A%9B%E9%87%8F%EF%BC%9A%E4%BB%8E%E6%8B%A5%E6%8A%B15G%E5%88%B0%E5%A5%94%E5%90%91%E7%81%AB%E6%98%9F%EF%BC%88%E4%BA%8C%EF%BC%89
+[15:56:32] [观看] 开始观看: 创新的力量：从拥抱5G到奔向火星（二）
+[15:56:37] [播放] 尝试播放视频...
+[15:56:38] [播放] JS play(): played
+[15:57:02] [视频] 00:25/14:07 | 3.0% | ▶播放 | 已完成3课
+[15:57:32] [视频] 00:55/14:07 | 6.5% | ▶播放 | 已完成3课
+[15:58:02] [视频] 01:25/14:07 | 10.1% | ▶播放 | 已完成3课
+[15:58:32] [视频] 01:55/14:07 | 13.6% | ▶播放 | 已完成3课
+[15:59:02] [视频] 02:25/14:07 | 17.2% | ▶播放 | 已完成3课
+[15:59:32] [视频] 02:55/14:07 | 20.7% | ▶播放 | 已完成3课
+[16:00:02] [视频] 03:25/14:07 | 24.3% | ▶播放 | 已完成3课
+[16:00:32] [视频] 03:55/14:07 | 27.8% | ▶播放 | 已完成3课
+[16:01:03] [视频] 04:26/14:07 | 31.4% | ▶播放 | 已完成3课
+[16:01:33] [视频] 04:56/14:07 | 34.9% | ▶播放 | 已完成3课
+[16:02:03] [视频] 05:17/14:07 | 37.5% | ▶播放 | 已完成3课
+[16:02:33] [视频] 05:27/14:07 | 38.6% | ▶播放 | 已完成3课
+[16:03:03] [视频] 05:40/14:07 | 40.2% | ▶播放 | 已完成3课
+[16:03:33] [视频] 06:01/14:07 | 42.6% | ▶播放 | 已完成3课
+[16:04:03] [视频] 06:26/14:07 | 45.6% | ▶播放 | 已完成3课
+[16:04:33] [视频] 06:49/14:07 | 48.3% | ▶播放 | 已完成3课
+[16:05:03] [视频] 07:14/14:07 | 51.3% | ▶播放 | 已完成3课
+[16:05:34] [视频] 07:40/14:07 | 54.4% | ▶播放 | 已完成3课
+[16:06:04] [视频] 08:09/14:07 | 57.8% | ▶播放 | 已完成3课
+[16:06:34] [视频] 08:25/14:07 | 59.6% | ▶播放 | 已完成3课
+[16:07:04] [视频] 08:55/14:07 | 63.1% | ▶播放 | 已完成3课
+[16:07:34] [视频] 09:22/14:07 | 66.4% | ▶播放 | 已完成3课
+[16:08:04] [视频] 09:47/14:07 | 69.3% | ▶播放 | 已完成3课
+[16:08:34] [视频] 10:17/14:07 | 72.8% | ▶播放 | 已完成3课
+[16:09:04] [视频] 10:47/14:07 | 76.4% | ▶播放 | 已完成3课
+[16:09:35] [视频] 11:17/14:07 | 79.9% | ▶播放 | 已完成3课
+[16:10:05] [视频] 11:44/14:07 | 83.0% | ▶播放 | 已完成3课
+[16:10:17] [弹窗✅] 自动点击: .el-message-box__btns .el-button--primary
+[16:10:36] [视频] 12:10/14:07 | 86.1% | ▶播放 | 已完成3课
+[16:11:06] [视频] 12:40/14:07 | 89.7% | ▶播放 | 已完成3课
+[16:11:36] [视频] 13:00/14:07 | 92.1% | ▶播放 | 已完成3课
+[16:12:06] [视频] 13:27/14:07 | 95.3% | ▶播放 | 已完成3课
+[16:12:36] [视频] 13:57/14:07 | 98.8% | ▶播放 | 已完成3课
+[16:12:48] [视频] 14:07/14:07 | 100.0% | ✅结束 | 已完成3课
+[16:12:48] [去重] ✅ 已保存新课程: 创新的力量：从拥抱5G到奔向火星（二）
+[16:12:48] 
+[16:12:48]   ══════════════════════════════════════
+[16:12:48]   ✅ 第4课完成！+1学时 | 累计: 4学时
+[16:12:48]   ══════════════════════════════════════
+[16:12:48] 
+[16:12:50] ────────────── 开始选新课 ──────────────
+[16:12:50] [选课] 选择"一般公需"分类...
+[16:12:50] [选课] 打开了第 1 个下拉框
+[16:12:51] [选课✅] 选中: 一般公需
+[16:12:53] [搜索] 点击查询...
+[16:12:53] [搜索] 点击: button:has-text("查询")
+[16:12:58] [选课] 从课程列表中选择最合适的课程...
+[16:12:58] [选课] 找到 30 个课程
+[16:12:58]   [#0] [科学素养]以火为墨 铁笔生花讲师：张海应时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[16:12:58]   [#1] [科学素养]以火为墨 出彩人生讲师：陈胜时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[16:12:58]   [#2] [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[16:12:58]   [#3] [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[16:12:58]   [#4] [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[16:12:58]   [排序#0] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50
+[16:12:58]   [排序#1] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50
+[16:12:58]   [排序#2] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50
+[16:12:58] [去重] 过滤掉 4 门已学课程，剩余 26 门可选
+[16:12:58] [选课✅] 选中: 以火为墨 铁笔生花 (相关性:0)
+[16:12:58] [选课] 尝试策略: Playwright原生点击itemBox
+[16:12:58] [选课] 找到 30 个 .itemBox
+[16:12:59] [选课] 点击 .itemBox[0]
+[16:12:59] [选课] 点击完成，等待5秒检查结果...
+[16:13:04] [选课] 策略 Playwright原生点击itemBox 点击后无跳转，尝试下一策略
+[16:13:04] [选课] 尝试策略: force点击itemBox
+[16:13:04] [选课] force点击 .itemBox[0]
+[16:13:04] [选课] 点击完成，等待5秒检查结果...
+[16:13:09] [选课] 策略 force点击itemBox 点击后无跳转，尝试下一策略
+[16:13:09] [选课] 尝试策略: 点击itemBox内img+文字div
+[16:13:10] [选课] 点击 .itemBox[0] 内部文字div
+[16:13:10] [选课] 点击完成，等待5秒检查结果...
+[16:13:15] [选课] 策略 点击itemBox内img+文字div 点击后无跳转，尝试下一策略
+[16:13:15] [选课] 尝试策略: JS dispatchEvent点击
+[16:13:15] [选课] JS dispatchEvent 点击
+[16:13:15] [选课] 点击完成，等待5秒检查结果...
+[16:13:20] [选课] 策略 JS dispatchEvent点击 点击后无跳转，尝试下一策略
+[16:13:20] [选课] 尝试策略: 点击课程名span
+[16:13:20] [选课] 点击课程名span: 以火为墨 铁笔生花
+[16:13:20] [选课] 点击完成，等待5秒检查结果...
+[16:13:25] [选课✅] 新标签页已打开: https://learning.hzrs.hangzhou.gov.cn/#/CourseDetail?courseid=5070614
+[16:13:25] [选课✅] 已到达详情页
+[16:13:25] [主流程] 详情页URL: https://learning.hzrs.hangzhou.gov.cn/#/CourseDetail?courseid=5070614
+[16:13:25] [详情] 在课程详情页点击"立即学习"...
+[16:13:25] [详情] 等待详情页加载...
+[16:13:28] [详情] Playwright点击: .el-button--primary:has-text("立即学习")
+[16:13:33] [详情✅] 视频在新标签页打开: https://learning.hzrs.hangzhou.gov.cn/#/class?courseId=5070614&coursetitle=%E4%BB%A5%E7%81%AB%E4%B8%BA%E5%A2%A8+%E9%93%81%E7%AC%94%E7%94%9F%E8%8A%B1
+[16:13:48] [主流程] 视频在新标签页: https://learning.hzrs.hangzhou.gov.cn/#/class?courseId=5070614&coursetitle=%E4%BB%A5%E7%81%AB%E4%B8%BA%E5%A2%A8+%E9%93%81%E7%AC%94%E7%94%9F%E8%8A%B1
+[16:13:48] [观看] 开始观看: 以火为墨 铁笔生花
+[16:13:53] [播放] 尝试播放视频...
+[16:13:53] [播放] JS play(): played
+[16:14:18] [视频] 00:25/19:36 | 2.1% | ▶播放 | 已完成4课
+[16:14:48] [视频] 00:55/19:36 | 4.7% | ▶播放 | 已完成4课
+[16:15:18] [视频] 01:25/19:36 | 7.3% | ▶播放 | 已完成4课
+[16:15:48] [视频] 01:55/19:36 | 9.8% | ▶播放 | 已完成4课
+[16:16:18] [视频] 02:25/19:36 | 12.4% | ▶播放 | 已完成4课
+[16:16:48] [视频] 02:55/19:36 | 14.9% | ▶播放 | 已完成4课
+[16:17:18] [视频] 03:25/19:36 | 17.5% | ▶播放 | 已完成4课
+[16:17:48] [视频] 03:55/19:36 | 20.0% | ▶播放 | 已完成4课
+[16:18:19] [视频] 04:26/19:36 | 22.6% | ▶播放 | 已完成4课
+[16:18:49] [视频] 04:56/19:36 | 25.2% | ▶播放 | 已完成4课
+[16:19:19] [视频] 05:26/19:36 | 27.7% | ▶播放 | 已完成4课
+[16:19:49] [视频] 05:56/19:36 | 30.3% | ▶播放 | 已完成4课
+[16:20:19] [视频] 06:26/19:36 | 32.8% | ▶播放 | 已完成4课
+[16:20:49] [视频] 06:56/19:36 | 35.4% | ▶播放 | 已完成4课
+[16:21:19] [视频] 07:26/19:36 | 38.0% | ▶播放 | 已完成4课
+[16:21:49] [视频] 07:56/19:36 | 40.5% | ▶播放 | 已完成4课
+[16:22:19] [视频] 08:26/19:36 | 43.1% | ▶播放 | 已完成4课
+[16:22:49] [视频] 08:57/19:36 | 45.6% | ▶播放 | 已完成4课
+[16:23:20] [视频] 09:27/19:36 | 48.2% | ▶播放 | 已完成4课
+[16:23:50] [视频] 09:57/19:36 | 50.7% | ▶播放 | 已完成4课
+[16:24:20] [视频] 10:27/19:36 | 53.3% | ▶播放 | 已完成4课
+[16:24:50] [视频] 10:57/19:36 | 55.9% | ▶播放 | 已完成4课
+[16:25:20] [视频] 11:27/19:36 | 58.4% | ▶播放 | 已完成4课
+[16:25:50] [视频] 11:57/19:36 | 61.0% | ▶播放 | 已完成4课
+[16:26:20] [视频] 12:27/19:36 | 63.5% | ▶播放 | 已完成4课
+[16:26:50] [视频] 12:57/19:36 | 66.1% | ▶播放 | 已完成4课
+[16:27:20] [视频] 13:06/19:36 | 66.8% | ▶播放 | 已完成4课
+[16:27:51] [视频] 13:20/19:36 | 68.0% | ▶播放 | 已完成4课
+[16:28:21] [视频] 13:45/19:36 | 70.1% | ▶播放 | 已完成4课
+[16:28:51] [视频] 14:06/19:36 | 71.9% | ▶播放 | 已完成4课
+[16:29:21] [视频] 14:31/19:36 | 74.1% | ▶播放 | 已完成4课
+[16:29:51] [视频] 14:59/19:36 | 76.4% | ▶播放 | 已完成4课
+[16:30:21] [视频] 15:29/19:36 | 79.0% | ▶播放 | 已完成4课
+[16:30:51] [视频] 15:59/19:36 | 81.5% | ▶播放 | 已完成4课
+[16:31:21] [视频] 16:29/19:36 | 84.1% | ▶播放 | 已完成4课
+[16:31:51] [视频] 16:59/19:36 | 86.7% | ▶播放 | 已完成4课
+[16:32:22] [视频] 17:29/19:36 | 89.2% | ▶播放 | 已完成4课
+[16:32:52] [视频] 18:00/19:36 | 91.8% | ▶播放 | 已完成4课
+[16:33:04] [弹窗✅] 自动点击: .el-message-box__btns .el-button--primary
+[16:33:23] [视频] 18:27/19:36 | 94.1% | ▶播放 | 已完成4课
+[16:33:29] [视频] 18:33/19:36 | 94.6% | ⏸暂停 | 已完成4课
+[16:33:29] [视频] 检测到暂停，重新播放...
+[16:33:29] [播放] 尝试播放视频...
+[16:33:29] [播放] JS play(): played
+[16:33:37] [弹窗✅] 自动点击: .el-message-box__btns .el-button--primary
+[16:33:56] [视频] 19:00/19:36 | 96.9% | ▶播放 | 已完成4课
+[16:34:14] [弹窗✅] 自动点击: .el-message-box__btns .el-button--primary
+[16:34:27] [视频] 19:26/19:36 | 99.1% | ▶播放 | 已完成4课
+[16:34:39] [视频] 19:36/19:36 | 100.0% | ✅结束 | 已完成4课
+[16:34:39] [去重] ✅ 已保存新课程: 以火为墨 铁笔生花
+[16:34:39] 
+[16:34:39]   ══════════════════════════════════════
+[16:34:39]   ✅ 第5课完成！+1学时 | 累计: 5学时
+[16:34:39]   ══════════════════════════════════════
+[16:34:39] 
+[16:34:39] [导航] SPA内导航...
+[16:34:43] ────────────── 开始选新课 ──────────────
+[16:34:43] [选课] 选择"一般公需"分类...
+[16:34:43] [选课] 打开了第 1 个下拉框
+[16:34:44] [选课✅] 选中: 一般公需
+[16:34:46] [搜索] 点击查询...
+[16:34:46] [搜索] 点击: button:has-text("查询")
+[16:34:51] [选课] 从课程列表中选择最合适的课程...
+[16:34:51] [选课] 找到 30 个课程
+[16:34:51]   [#0] [科学素养]以火为墨 铁笔生花讲师：张海应时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[16:34:51]   [#1] [科学素养]以火为墨 出彩人生讲师：陈胜时长：20 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[16:34:51]   [#2] [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[16:34:51]   [#3] [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[16:34:51]   [#4] [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50 | click=true | DIV.
+[16:34:51]   [排序#0] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（一）讲师：吴志坚时长：16 分钟类型：一般公需学时：0.50
+[16:34:51]   [排序#1] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（四）讲师：吴志坚时长：14 分钟类型：一般公需学时：0.50
+[16:34:51]   [排序#2] 相关性:13 | [科学素养]创新的力量：从拥抱5G到奔向火星（三）讲师：吴志坚时长：17 分钟类型：一般公需学时：0.50
+[16:34:51] [去重] 过滤掉 5 门已学课程，剩余 25 门可选
+[16:34:51] [选课✅] 选中: 以火为墨 出彩人生 (相关性:0)
+[16:34:51] [选课] 尝试策略: Playwright原生点击itemBox
+[16:34:51] [选课] 找到 30 个 .itemBox
+[16:34:52] [选课] 点击 .itemBox[1]
+[16:34:52] [选课] 点击完成，等待5秒检查结果...
+[16:34:57] [选课] 策略 Playwright原生点击itemBox 点击后无跳转，尝试下一策略
+[16:34:57] [选课] 尝试策略: force点击itemBox
+[16:34:57] [选课] force点击 .itemBox[1]
+[16:34:57] [选课] 点击完成，等待5秒检查结果...
+[16:35:02] [选课] 策略 force点击itemBox 点击后无跳转，尝试下一策略
+[16:35:02] [选课] 尝试策略: 点击itemBox内img+文字div
+[16:35:02] [选课] 点击 .itemBox[1] 内部文字div
+[16:35:02] [选课] 点击完成，等待5秒检查结果...
+[16:35:07] [选课] 策略 点击itemBox内img+文字div 点击后无跳转，尝试下一策略
+[16:35:07] [选课] 尝试策略: JS dispatchEvent点击
+[16:35:07] [选课] JS dispatchEvent 点击
+[16:35:07] [选课] 点击完成，等待5秒检查结果...
+[16:35:12] [选课] 策略 JS dispatchEvent点击 点击后无跳转，尝试下一策略
+[16:35:12] [选课] 尝试策略: 点击课程名span
+[16:35:13] [选课] 点击课程名span: 以火为墨 出彩人生
+[16:35:13] [选课] 点击完成，等待5秒检查结果...
+[16:35:18] [选课✅] 新标签页已打开: https://learning.hzrs.hangzhou.gov.cn/#/CourseDetail?courseid=5070613
+[16:35:18] [选课✅] 已到达详情页
+[16:35:18] [主流程] 详情页URL: https://learning.hzrs.hangzhou.gov.cn/#/CourseDetail?courseid=5070613
+[16:35:18] [详情] 在课程详情页点击"立即学习"...
+[16:35:18] [详情] 等待详情页加载...
+[16:35:21] [详情] Playwright点击: .el-button--primary:has-text("立即学习")
+[16:35:26] [详情✅] 视频在新标签页打开: https://learning.hzrs.hangzhou.gov.cn/#/class?courseId=5070613&coursetitle=%E4%BB%A5%E7%81%AB%E4%B8%BA%E5%A2%A8+%E5%87%BA%E5%BD%A9%E4%BA%BA%E7%94%9F
+[16:35:41] [主流程] 视频在新标签页: https://learning.hzrs.hangzhou.gov.cn/#/class?courseId=5070613&coursetitle=%E4%BB%A5%E7%81%AB%E4%B8%BA%E5%A2%A8+%E5%87%BA%E5%BD%A9%E4%BA%BA%E7%94%9F
+[16:35:41] [观看] 开始观看: 以火为墨 出彩人生
+[16:35:46] [播放] 尝试播放视频...
+[16:35:46] [播放] JS play(): played
+[16:36:10] [视频] 00:25/20:07 | 2.1% | ▶播放 | 已完成5课
+[16:36:41] [视频] 00:55/20:07 | 4.6% | ▶播放 | 已完成5课
+[16:37:11] [视频] 01:25/20:07 | 7.1% | ▶播放 | 已完成5课
+[16:37:41] [视频] 01:55/20:07 | 9.6% | ▶播放 | 已完成5课
+[16:38:11] [视频] 02:25/20:07 | 12.1% | ▶播放 | 已完成5课
+[16:38:41] [视频] 02:55/20:07 | 14.5% | ▶播放 | 已完成5课
+[16:39:11] [视频] 03:25/20:07 | 17.0% | ▶播放 | 已完成5课
+[16:39:41] [视频] 03:55/20:07 | 19.5% | ▶播放 | 已完成5课
+[16:40:11] [视频] 04:26/20:07 | 22.0% | ▶播放 | 已完成5课
+[16:40:42] [视频] 04:56/20:07 | 24.5% | ▶播放 | 已完成5课
+[16:41:12] [视频] 05:26/20:07 | 27.0% | ▶播放 | 已完成5课
+[16:41:42] [视频] 05:56/20:07 | 29.5% | ▶播放 | 已完成5课
