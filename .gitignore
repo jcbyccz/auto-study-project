@@ -1,30 +1,26 @@
+# Dependencies
+node_modules/
+
 # Logs
 logs
 *.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
+# Auth & session (contains login cookies)
+auth-state.json
+browser-data/
+
+# Learned courses record (personal data)
+learned-courses.json
+
+# OS & editor
 .DS_Store
-dist
-dist-ssr
-coverage
-*.local
-
-/cypress/videos/
-/cypress/screenshots/
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
+.vscode/
 .idea
 *.suo
-*.ntvs*
-*.njsproj
-*.sln
 *.sw?
 
-*.tsbuildinfo
+# Build
+dist/
+coverage/
+*.local
