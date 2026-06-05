@@ -5,6 +5,8 @@ node_modules/
 logs
 *.log
 npm-debug.log*
+auto-study.log
+package-lock.json
 
 # Auth & session (contains login cookies)
 auth-state.json
