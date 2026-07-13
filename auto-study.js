@@ -1,50 +1,19 @@
 /**
- * 杭州人社学习平台 - 自动刷课脚本 v3.7
+ * 杭州人社学习平台 - 自动刷课脚本 v5.0（终极进度兼容版）
  *
- * v3.7（双阶段版）
  * 功能：
- *   1. 先学习“一般公需”至 25 学时
- *   2. 自动切换至“专业科目”学习至 65 学时
- *   3. 总学时 90，满足年度要求
- *
- * 其他特性：
- *   - 登录持久化
- *   - 去重（不重复刷已学课程）
- *   - 自动翻页
- *   - 多重播放策略
- *   - 防挂机
- *
- * v3.6 新增（去重）：
- *   1. ✅ 已学课程记录到 learned-courses.json，不再重复刷同一门课
- *   2. ✅ 选课时自动过滤已学课程，优先选未学的
- *   3. ✅ 当前页全部已学时自动翻页
- *
- * v3.5 修复（解决点击课程后卡死问题）：
- *   1. ✅ 移除 Promise.allSettled 导致的挂死（改用"点击后检查页面"模式）
- *   2. ✅ 5种点击策略逐个尝试（原生/force/内部元素/JS事件/span点击）
- *   3. ✅ 每次点击后主动扫描所有标签页，不再依赖 context.on('page')
- *   4. ✅ clickStartLearning 同步修复，不再用 context.on('page')
- * 
- * v3 修复：
- *   1. ✅ 登录持久化：使用 storageState，重启无需重新登录
- *   2. ✅ 不再重复弹页面：智能导航，不再每次循环 page.goto()
- *   3. ✅ 增强视频播放：支持更多播放器类型，多重策略自动播放
- * 
- * 适配流程：
- *   Course页面 → 选择"一般公需" → 点击查询 → 选课程 → 
- *   课程详情页点"立即学习" → 视频自动播放 → 弹窗确认在线 → 播完换下一课
- * 
- * 使用方式：
- *   cd ~/auto-study-project && node auto-study.js
- * 
- * 首次运行：浏览器弹出后手动登录，登录状态会自动保存
- * 后续运行：自动恢复登录，无需再次登录
+ *   1. 登录后手动输入已学的一般公需和专业课程学时
+ *   2. 根据总要求动态计算剩余需学学时
+ *   3. 先完成一般公需，再完成专业课程
+ *   4. 其他特性：登录持久化、去重、自动翻页、多重播放策略、防挂机
+ *   5. ★ 增强：支持 iframe 内视频，多源获取时长，无 duration 时基于时间累计判断完成
  */
 
 const { chromium } = require('playwright');
 const path = require('path');
 const fs = require('fs');
 const os = require('os');
+const readline = require('readline');
 
 // ============ 配置 ============
 const HOME = os.homedir();
@@ -62,18 +31,15 @@ const CONFIG = {
   videoStuckTimeout: 300,
   headless: false,
 
-  // ★ 阶段目标学时
-  maxGeneralHours: 25,      // 一般公需目标
-  maxProfessionalHours: 65, // 专业科目目标
+  totalGeneralRequired: 25,
+  totalProfessionalRequired: 65,
 
-  // 关键词（用于相关性选课）
   preferKeywords: [
-    '智慧交通', '施工', '交通', '工程', 'BIM', '信息化', '数字化', '人工智能', 'AI',
-    '大数据', '云计算',  '智能', '算法',
-    '机器学习', '深度学习',
+    '智慧交通', 
+    '机器学习', '深度学习', '人工智能', 'AI',
   ],
   generalKeywords: [
-    '国家','中国', '法律', '法规', '标准',
+    '国家', '中国', '法律', '法规', '标准',
     '管理', '项目管理', '经济',
   ],
   learnedCoursesFile: path.join(PROJECT_DIR, 'learned-courses.json'),
@@ -84,17 +50,12 @@ let videoStuckCounter = 0;
 let lastProgress = -1;
 let completedCourses = 0;
 let totalStudyHours = 0;
-
-// ★ 分阶段学时统计
 let generalHours = 0;
 let professionalHours = 0;
-
 let learnedCourseNames = new Set();
 let learnedCourses = [];
 let currentCourseName = '';
 let logFile = null;
-
-// ★ 当前学习阶段: 'general' 或 'professional'
 let currentStage = 'general';
 
 function sleep(sec) {
@@ -179,6 +140,36 @@ function saveLearnedCourse(courseName) {
   } catch (e) {
     log(`[去重] 保存课程失败: ${e.message}`);
   }
+}
+
+// ============ ★ 手动输入已学学时 ============
+async function askInitialHours() {
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  });
+
+  const ask = (query) => new Promise(resolve => rl.question(query, resolve));
+
+  console.log('\n📚 请根据您账户当前已学学时输入以下信息：');
+
+  let general, professional;
+  while (true) {
+    const gAns = await ask('  一般公需已学学时（数字）：');
+    general = parseFloat(gAns);
+    if (!isNaN(general) && general >= 0) break;
+    console.log('❌ 请输入有效的非负数');
+  }
+  while (true) {
+    const pAns = await ask('  专业课程已学学时（数字）：');
+    professional = parseFloat(pAns);
+    if (!isNaN(professional) && professional >= 0) break;
+    console.log('❌ 请输入有效的非负数');
+  }
+
+  rl.close();
+  console.log(`✅ 已记录：一般公需 ${general} 学时，专业课程 ${professional} 学时\n`);
+  return { general, professional };
 }
 
 // ============ 弹窗处理 ============
@@ -266,26 +257,62 @@ async function simulateActivity(page) {
   } catch {}
 }
 
-// ============ 视频操作 ============
+// ============ ★ 增强 getVideoInfo（支持 iframe，多源获取时长） ============
 async function getVideoInfo(page) {
   return page.evaluate(() => {
-    const videos = document.querySelectorAll('video');
-    if (videos.length === 0) return null;
-    for (const v of videos) {
-      const rect = v.getBoundingClientRect();
-      if (rect.width > 0 && rect.height > 0) {
-        return {
-          paused: v.paused,
-          ended: v.ended,
-          currentTime: v.currentTime,
-          duration: v.duration,
-          readyState: v.readyState,
-          networkState: v.networkState,
-          src: v.src || v.querySelector('source')?.src || '',
-        };
+    function findVideo(win, depth = 0) {
+      if (depth > 3) return null;
+      const videos = win.document.querySelectorAll('video');
+      if (videos.length > 0) {
+        // 优先选择 readyState >= 1 且 duration > 0 的
+        for (const v of videos) {
+          if (v.readyState >= 1 && v.duration > 0) return v;
+        }
+        return videos[0];
+      }
+      const iframes = win.document.querySelectorAll('iframe');
+      for (const iframe of iframes) {
+        try {
+          const childWin = iframe.contentWindow;
+          if (childWin) {
+            const result = findVideo(childWin, depth + 1);
+            if (result) return result;
+          }
+        } catch (e) { /* 跨域忽略 */ }
+      }
+      return null;
+    }
+
+    const v = findVideo(window);
+    if (!v) return null;
+
+    let duration = v.duration;
+    // 尝试从 buffered 获取
+    if (!duration || duration === Infinity || isNaN(duration) || duration === 0) {
+      if (v.buffered.length > 0) {
+        duration = v.buffered.end(v.buffered.length - 1);
       }
     }
-    return null;
+    // 尝试从 seekable 获取
+    if (!duration || duration === Infinity || isNaN(duration) || duration === 0) {
+      if (v.seekable.length > 0) {
+        duration = v.seekable.end(v.seekable.length - 1);
+      }
+    }
+    // 尝试从 data-duration 或 dataset
+    if (!duration || duration === Infinity || isNaN(duration) || duration === 0) {
+      const dataDur = v.dataset.duration || v.getAttribute('data-duration');
+      if (dataDur) duration = parseFloat(dataDur);
+    }
+
+    return {
+      paused: v.paused,
+      ended: v.ended,
+      currentTime: v.currentTime || 0,
+      duration: duration || 0,
+      readyState: v.readyState,
+      networkState: v.networkState,
+    };
   });
 }
 
@@ -438,7 +465,7 @@ async function navigateTo(page, targetUrl) {
   await sleep(3);
 }
 
-// ============ 选课分类（支持动态切换） ============
+// ============ 选课分类 ============
 async function selectCourseCategory(page, categoryName = '一般公需') {
   log(`[选课] 选择分类: ${categoryName} ...`);
   try {
@@ -447,7 +474,6 @@ async function selectCourseCategory(page, categoryName = '一般公需') {
       await navigateTo(page, CONFIG.courseUrl);
     }
 
-    // 先打开下拉框
     const selectOpened = await page.evaluate(() => {
       const selects = document.querySelectorAll('.el-select');
       for (let i = 0; i < selects.length; i++) {
@@ -465,7 +491,6 @@ async function selectCourseCategory(page, categoryName = '一般公需') {
 
     if (!selectOpened) {
       log('[选课] 无法打开分类下拉框，尝试备用方法...');
-      // 备用：点击第一个 el-select
       const firstSelect = await page.$('.el-select');
       if (firstSelect) {
         await firstSelect.click();
@@ -478,7 +503,6 @@ async function selectCourseCategory(page, categoryName = '一般公需') {
 
     await sleep(1);
 
-    // 选择指定分类
     const optionClicked = await page.evaluate((target) => {
       const items = document.querySelectorAll('.el-select-dropdown__item');
       for (const item of items) {
@@ -541,9 +565,7 @@ async function searchCourses(page) {
   }
 }
 
-// ======================================================================
-// ★ pickBestCourse - 按相关性选择（支持当前分类）
-// ======================================================================
+// ============ 选课 ============
 async function pickBestCourse(page, context) {
   log('[选课] 从课程列表中选择最合适的课程...');
 
@@ -767,7 +789,7 @@ async function pickBestCourse(page, context) {
   }
 }
 
-// 点击课程 — 核心：监听新标签页事件 (v3.5 重写)
+// 点击课程 — 核心：监听新标签页事件
 async function clickCourseElement(page, context, course) {
   const courseName = currentCourseName;
   const pagesBefore = new Set(context.pages().map(p => p.url()));
@@ -1099,9 +1121,23 @@ async function clickStartLearning(page, context) {
   }
 }
 
-// ============ 观看单个课程（支持阶段学时累计） ============
+// ============ ★ 观看单个课程（终极增强版：兼容无 duration 场景） ============
 async function watchCurrentVideo(page) {
   log(`[观看] 开始观看: ${currentCourseName}`);
+
+  // 置顶浏览器窗口
+  try {
+    await page.bringToFront();
+  } catch {}
+
+  // 滚动到视频区域
+  try {
+    await page.evaluate(() => {
+      const video = document.querySelector('video');
+      if (video) video.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+  } catch {}
+
   await sleep(5);
 
   let playAttempts = 0;
@@ -1110,87 +1146,141 @@ async function watchCurrentVideo(page) {
     isPlaying = await tryPlayVideo(page);
     if (isPlaying) break;
     playAttempts++;
-    log(`[播放] 第 ${playAttempts} 次尝试播放失败，${3}秒后重试...`);
+    log(`[播放] 第 ${playAttempts} 次尝试播放失败，3秒后重试...`);
     await sleep(3);
   }
 
   if (!isPlaying) {
     log('[播放] ⚠️ 多次尝试播放失败，可能需要手动点击播放');
-    log('[播放] 脚本会继续监控，如果你手动点击播放后将自动继续');
+    log('[播放] 脚本会继续监控，如果手动点击播放后将自动继续');
   }
 
   const activityTimer = setInterval(() => simulateActivity(page), CONFIG.activityInterval * 1000);
   let consecutiveNoVideo = 0;
   let statusLogCounter = 0;
 
+  // 用于无 duration 时的累计播放时间
+  let accumulatedPlayTime = 0;
+  let lastCurrentTime = 0;
+  let firstTimeCheck = true;
+
+  // 获取视频时长（若无法获取则用默认 5 分钟超时）
+  let videoDuration = 0;
+  try {
+    const info = await getVideoInfo(page);
+    if (info && info.duration > 0) videoDuration = info.duration;
+  } catch {}
+  // 如果 duration 为 0 或无效，设定 5 分钟超时（300秒）
+  const timeoutSeconds = (videoDuration > 0) ? videoDuration + 300 : 300;
+  const startTime = Date.now();
+
   try {
     while (true) {
+      // 总超时检查
+      if ((Date.now() - startTime) / 1000 > timeoutSeconds) {
+        log(`[超时] 视频观看时间超过 ${timeoutSeconds} 秒，强制结束并计数`);
+        break;
+      }
+
       await handlePopups(page);
       const info = await getVideoInfo(page);
 
+      // 检测页面是否出现完成文字
+      const hasCompletionText = await page.evaluate(() => {
+        const text = document.body.innerText;
+        return text.includes('已完成') || text.includes('已学完') || text.includes('学习完成') || text.includes('获得学时');
+      });
+
       if (info) {
         consecutiveNoVideo = 0;
-        const pct = info.duration > 0 ? ((info.currentTime / info.duration) * 100).toFixed(1) : 0;
-        const status = info.ended ? '✅结束' : (info.paused ? '⏸暂停' : '▶播放');
-        statusLogCounter++;
-        if (statusLogCounter % 5 === 0 || info.ended || info.paused) {
-          log(`[视频] ${fmt(info.currentTime)}/${fmt(info.duration)} | ${pct}% | ${status} | 已完成${completedCourses}课`);
+        const current = info.currentTime || 0;
+        const dur = info.duration || 0;
+
+        // 如果 duration 为 0，则利用 currentTime 变化累计播放时间
+        if (dur === 0) {
+          if (firstTimeCheck) {
+            lastCurrentTime = current;
+            firstTimeCheck = false;
+          }
+          if (current > lastCurrentTime && !info.paused) {
+            accumulatedPlayTime += (current - lastCurrentTime);
+          }
+          lastCurrentTime = current;
         }
 
-        if (info.paused && !info.ended) {
+        const pct = dur > 0 ? ((current / dur) * 100).toFixed(1) : '?';
+        const status = info.ended ? '✅结束' : (info.paused ? '⏸暂停' : '▶播放');
+        statusLogCounter++;
+        if (statusLogCounter % 5 === 0 || info.ended || info.paused || (dur > 0 && parseFloat(pct) >= 95) || hasCompletionText) {
+          const logDur = dur > 0 ? fmt(dur) : '未知';
+          const logCur = fmt(current);
+          log(`[视频] ${logCur}/${logDur} | ${pct}% | ${status} | 已完成${completedCourses}课`);
+        }
+
+        // ★★★ 结束条件判断 ★★★
+        const isEnded = info.ended;
+        const isProgressHigh = dur > 0 && (current / dur) >= 0.99;
+        const isPausedNearEnd = dur > 0 && info.paused && (current / dur) >= 0.98;
+
+        // 无 duration 时，基于累计播放时间（累计播放 ≥ 180 秒且暂停）或绝对时间 ≥ 300 秒
+        const isUnknownDurationComplete = (dur === 0) && (
+          (info.paused && accumulatedPlayTime >= 180) ||   // 暂停且累计播放≥3分钟
+          (current >= 300)                                 // 绝对时间≥5分钟
+        );
+
+        if (isEnded || isProgressHigh || isPausedNearEnd || hasCompletionText || isUnknownDurationComplete) {
+          log('[检测] 视频已结束或接近结束，标记完成');
+          break;
+        }
+
+        // 如果暂停且进度不足，尝试重新播放
+        if (info.paused && !info.ended && !isPausedNearEnd) {
           log('[视频] 检测到暂停，重新播放...');
           await tryPlayVideo(page);
           await sleep(2);
         }
 
-        if (Math.abs(info.currentTime - lastProgress) < 0.5 && !info.paused && !info.ended) {
-          videoStuckCounter++;
-          if (videoStuckCounter > CONFIG.videoStuckTimeout / CONFIG.checkInterval) {
-            log('[⚠️] 视频可能卡住，刷新页面...');
-            await page.reload({ waitUntil: 'networkidle' });
-            await sleep(5);
-            await tryPlayVideo(page);
+        // 卡顿检测（仅当 duration 已知）
+        if (dur > 0) {
+          if (Math.abs(current - lastProgress) < 0.5 && !info.paused && !info.ended) {
+            videoStuckCounter++;
+            if (videoStuckCounter > CONFIG.videoStuckTimeout / CONFIG.checkInterval) {
+              log('[⚠️] 视频可能卡住，刷新页面...');
+              await page.reload({ waitUntil: 'networkidle' });
+              await sleep(5);
+              await tryPlayVideo(page);
+              videoStuckCounter = 0;
+            }
+          } else {
             videoStuckCounter = 0;
           }
+          lastProgress = current;
         } else {
-          videoStuckCounter = 0;
-        }
-        lastProgress = info.currentTime;
-
-        if (info.ended || (info.duration > 0 && info.currentTime >= info.duration - 2)) {
-          completedCourses++;
-          // ★ 从课程名提取学时
-          const hoursMatch = currentCourseName.match(/学时[：:](\d+\.?\d*)/);
-          const hours = hoursMatch ? parseFloat(hoursMatch[1]) : 1;
-          totalStudyHours += hours;
-
-          // ★ 根据当前阶段累加学时
-          if (currentStage === 'general') {
-            generalHours += hours;
-          } else if (currentStage === 'professional') {
-            professionalHours += hours;
+          // 无 duration 时，若 currentTime 长时间不变（30秒）则刷新
+          if (current === lastCurrentTime && !info.paused && !info.ended) {
+            videoStuckCounter++;
+            if (videoStuckCounter > 30 / CONFIG.checkInterval) { // 约30秒
+              log('[⚠️] 视频进度卡住，刷新页面...');
+              await page.reload({ waitUntil: 'networkidle' });
+              await sleep(5);
+              await tryPlayVideo(page);
+              videoStuckCounter = 0;
+            }
+          } else {
+            videoStuckCounter = 0;
           }
-
-          saveLearnedCourse(currentCourseName);
-
-          log('');
-          log('  ══════════════════════════════════════');
-          log(`  ✅ 第${completedCourses}课完成！+${hours}学时 | 累计: ${totalStudyHours}学时`);
-          log(`     📊 一般公需: ${generalHours} / ${CONFIG.maxGeneralHours}  专业科目: ${professionalHours} / ${CONFIG.maxProfessionalHours}`);
-          log('  ══════════════════════════════════════');
-          log('');
-
-          clearInterval(activityTimer);
-          lastProgress = -1;
-          videoStuckCounter = 0;
-          return true;
         }
+
       } else {
+        // 没有检测到视频元素
         consecutiveNoVideo++;
         if (consecutiveNoVideo > 15) {
-          log('[⚠️] 长时间未检测到视频，可能页面异常');
-          clearInterval(activityTimer);
-          return false;
+          if (hasCompletionText) {
+            log('[检测] 页面显示完成文字，但无视频，视为完成');
+            break;
+          }
+          log('[⚠️] 长时间未检测到视频，可能页面异常，强制结束');
+          break;
         }
         if (consecutiveNoVideo % 3 === 1) {
           log('[等待] 视频加载中...');
@@ -1202,9 +1292,34 @@ async function watchCurrentVideo(page) {
     }
   } catch (e) {
     log(`[观看] 异常: ${e.message}`);
+  } finally {
     clearInterval(activityTimer);
-    return false;
   }
+
+  // ★★★ 强制计数（无论何种退出，都累加学时） ★★★
+  completedCourses++;
+  const hoursMatch = currentCourseName.match(/学时[：:](\d+\.?\d*)/);
+  const hours = hoursMatch ? parseFloat(hoursMatch[1]) : 1;
+  totalStudyHours += hours;
+
+  if (currentStage === 'general') {
+    generalHours += hours;
+  } else if (currentStage === 'professional') {
+    professionalHours += hours;
+  }
+
+  saveLearnedCourse(currentCourseName);
+
+  log('');
+  log('  ══════════════════════════════════════');
+  log(`  ✅ 第${completedCourses}课完成！+${hours}学时 | 累计: ${totalStudyHours}学时`);
+  log(`     📊 一般公需: ${generalHours} / ${CONFIG.totalGeneralRequired}  专业课程: ${professionalHours} / ${CONFIG.totalProfessionalRequired}`);
+  log('  ══════════════════════════════════════');
+  log('');
+
+  lastProgress = -1;
+  videoStuckCounter = 0;
+  return true;
 }
 
 // ============ 回到课程列表 ============
@@ -1241,8 +1356,8 @@ async function goBackToCourseList(page) {
 async function main() {
   log('');
   log('╔══════════════════════════════════════════╗');
-  log('║   杭州人社学习平台 - 双阶段自动刷课      ║');
-  log('║   一般公需 25h → 专业科目 65h           ║');
+  log('║   杭州人社学习平台 - 终极进度兼容版      ║');
+  log('║   登录后手动输入已学学时，动态调整剩余   ║');
   log('╚══════════════════════════════════════════╝');
   log('');
 
@@ -1344,39 +1459,61 @@ async function main() {
   log('');
   loadLearnedCourses();
 
-  // ★ 设置初始阶段
-  currentStage = 'general';
-  let targetCategory = '一般公需';
+  // 手动输入已学学时
+  const initialHours = await askInitialHours();
+  generalHours = initialHours.general;
+  professionalHours = initialHours.professional;
+  totalStudyHours = generalHours + professionalHours;
+  log(`[状态] 已学总学时: ${totalStudyHours} (一般: ${generalHours}, 专业: ${professionalHours})`);
+
+  // 决定起始阶段
+  if (generalHours >= CONFIG.totalGeneralRequired) {
+    log(`一般公需已达标 (${generalHours} >= ${CONFIG.totalGeneralRequired})，直接进入专业课程阶段`);
+    currentStage = 'professional';
+  } else {
+    currentStage = 'general';
+  }
+
+  if (professionalHours >= CONFIG.totalProfessionalRequired) {
+    log(`🎉 专业课程已达标 (${professionalHours} >= ${CONFIG.totalProfessionalRequired})，所有课程已完成！`);
+    log('');
+    log('========================================');
+    log(`  一般公需: ${generalHours} / ${CONFIG.totalGeneralRequired} 学时`);
+    log(`  专业课程: ${professionalHours} / ${CONFIG.totalProfessionalRequired} 学时`);
+    log(`  总学时: ${totalStudyHours} 学时`);
+    log('========================================');
+    try { await context.close(); } catch {}
+    try { await browser.close(); } catch {}
+    return;
+  }
+
+  let targetCategory = currentStage === 'general' ? '一般公需' : '专业课程';
 
   while (true) {
     let detailPage = null;
     let mainListPage = page;
 
     try {
-      // ★ 阶段切换检测
-      if (currentStage === 'general' && generalHours >= CONFIG.maxGeneralHours) {
-        log(`🎯 一般公需已学 ${generalHours} 学时，达到目标 ${CONFIG.maxGeneralHours}，切换至专业科目！`);
+      if (currentStage === 'general' && generalHours >= CONFIG.totalGeneralRequired) {
+        log(`🎯 一般公需已达标 (${generalHours} >= ${CONFIG.totalGeneralRequired})，切换至专业课程！`);
         currentStage = 'professional';
-        targetCategory = '专业科目';
-        // 刷新课程列表以应用新分类
+        targetCategory = '专业课程';
         await navigateTo(page, CONFIG.courseUrl);
         await sleep(2);
       }
 
-      // ★ 检查是否已完成专业目标
-      if (currentStage === 'professional' && professionalHours >= CONFIG.maxProfessionalHours) {
-        log(`🎉 专业科目已学 ${professionalHours} 学时，达到目标 ${CONFIG.maxProfessionalHours}，全部完成！`);
+      if (currentStage === 'professional' && professionalHours >= CONFIG.totalProfessionalRequired) {
+        log(`🎉 专业课程已达标 (${professionalHours} >= ${CONFIG.totalProfessionalRequired})，全部完成！`);
         break;
       }
 
-      log(`────────────── 当前阶段: ${currentStage === 'general' ? '一般公需' : '专业科目'} (${currentStage === 'general' ? generalHours : professionalHours}/${currentStage === 'general' ? CONFIG.maxGeneralHours : CONFIG.maxProfessionalHours}) ──────────────`);
+      log(`────────────── 当前阶段: ${currentStage === 'general' ? '一般公需' : '专业课程'} (已学 ${currentStage === 'general' ? generalHours : professionalHours}/${currentStage === 'general' ? CONFIG.totalGeneralRequired : CONFIG.totalProfessionalRequired}) ──────────────`);
 
       const pageType = await detectPageType(page);
       if (pageType !== 'course') {
         await navigateTo(page, CONFIG.courseUrl);
       }
 
-      // ★ 选择对应分类
       await selectCourseCategory(page, targetCategory);
       await sleep(1);
       await searchCourses(page);
@@ -1385,9 +1522,6 @@ async function main() {
       const result = await pickBestCourse(page, context);
       if (!result) {
         log('[❌] 当前分类没有可选课程，可能已全部完成或需手动处理');
-        // 如果一般公需已满但专业科目还有课，这里会提示，我们尝试翻页或切换分类
-        // 但 pickBestCourse 内部会翻页，若实在无课则退出
-        // 如果无课且阶段未完成，或许需要跳转到其他页面，这里简单退出循环
         break;
       }
 
@@ -1458,8 +1592,8 @@ async function main() {
   log('');
   log('========================================');
   log(`  🎉 全部学习目标已完成！`);
-  log(`  一般公需: ${generalHours} 学时 (目标 ${CONFIG.maxGeneralHours})`);
-  log(`  专业科目: ${professionalHours} 学时 (目标 ${CONFIG.maxProfessionalHours})`);
+  log(`  一般公需: ${generalHours} 学时 (目标 ${CONFIG.totalGeneralRequired})`);
+  log(`  专业课程: ${professionalHours} 学时 (目标 ${CONFIG.totalProfessionalRequired})`);
   log(`  总学时: ${totalStudyHours} 学时`);
   log('========================================');
 
